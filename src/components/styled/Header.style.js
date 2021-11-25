@@ -29,15 +29,36 @@ const StyledHeader = styled(Header)`
     opacity: 0.8;
   }
 
-  .skills {
+  .skills, .tools {
     margin: 50px 0 0 0;
     width: 85%;
-    border-top: solid black 3px;
     font-size: 24px;
     line-height: 40px;
     /* border: solid red 3px; */
   }
 
+  .skills {
+     border-top: solid black 3px;
+  }
+
+  .tools {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
+
+    & i, img {
+      font-size: 50px;
+      margin: 10px 15px 10px 15px;
+    }
+
+    & img {
+      height: 50px;
+      width: auto;
+    }
+
+  }
  
 
   @media screen and (max-width: 750px) {
