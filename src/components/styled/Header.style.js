@@ -19,18 +19,32 @@ const StyledHeader = styled(Header)`
     font-weight: 700;
     font-size: 80px;
     font-family: 'PT Mono', monospace;
+    
   }
 
   h3 {
-    font-size: 30px;
+    font-size: 27px;
     font-weight: 200;
+    color: white;
+    opacity: 0.8;
   }
+
+  .skills {
+    margin: 50px 0 0 0;
+    width: 85%;
+    border-top: solid black 3px;
+    font-size: 24px;
+    line-height: 40px;
+    /* border: solid red 3px; */
+  }
+
+ 
 
   @media screen and (max-width: 750px) {
 
     align-items: flex-start;
 
-    h1, h2, h3 {
+    h1, h2, h3, .skills {
       margin-left: 30px;
     }
 
