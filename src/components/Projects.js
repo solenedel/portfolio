@@ -1,5 +1,4 @@
 import React from "react";
-import pinturaOne from "../../public/pinturaOne.png";
 
 const Projects = ({className}) => {
   return ( 
@@ -8,7 +7,7 @@ const Projects = ({className}) => {
         <div className="projects">
           <div className="project one">
             <h4>Pintura</h4>
-            <img src={pinturaOne} alt="pintura" />
+            <img src="http://solenedel.github.io/portfolio/blob/main/public/images/pintura-thumbnail-2.png" alt="pintura" />
           </div>
           <div className="project two">
            <h4>GreenGrocer</h4>
