@@ -3,9 +3,6 @@ import Header from '../Header'
 
 const StyledHeader = styled(Header)`
 
-
-
-
   display: flex;
   flex-direction: column;
   align-items: center;

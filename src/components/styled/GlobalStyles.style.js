@@ -21,4 +21,9 @@ export const GlobalStyles = createGlobalStyle`
     margin: 25px 0 25px 0;
   }
 
+  .App {
+    display: flex;
+    flex-direction: column;
+  }
+
 `;
