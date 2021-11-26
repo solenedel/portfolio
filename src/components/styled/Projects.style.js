@@ -16,7 +16,6 @@ const StyledProjects = styled(Projects)`
   h2 {
     margin: 50px 0 50px 0;
     font-size: 35px;
-    opacity: 0.9;
     font-family: 'PT Mono', monospace;
     font-weight: 700;
   }
@@ -33,7 +32,6 @@ const StyledProjects = styled(Projects)`
    
 
     & .project {
-      /* border: solid white 3px; */
       border-radius: 10px;
       margin: 0 50px 100px 50px;
       padding: 0 20px 0 20px;
@@ -42,6 +40,12 @@ const StyledProjects = styled(Projects)`
     img {
       width: 200px;
       border-radius: 10px;
+      box-shadow: 5px 10px 10px #3046B9;
+
+      &:hover {
+        /* border: solid white 6px; */
+        cursor: pointer;
+      }
     }
     
   }
