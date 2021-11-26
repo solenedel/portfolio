@@ -16,7 +16,6 @@ const StyledHeader = styled(Header)`
     font-weight: 700;
     font-size: 80px;
     font-family: 'PT Mono', monospace;
-    
   }
 
   h3 {
