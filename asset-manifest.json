@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/portfolio/static/js/main.71248935.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.71248935.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.0bf68c44.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.0bf68c44.js.map",
+    "static/js/2.b0284e37.chunk.js": "/portfolio/static/js/2.b0284e37.chunk.js",
+    "static/js/2.b0284e37.chunk.js.map": "/portfolio/static/js/2.b0284e37.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/js/2.b0284e37.chunk.js.LICENSE.txt": "/portfolio/static/js/2.b0284e37.chunk.js.LICENSE.txt",
+    "static/media/greengrocer.1eaf3fa4.png": "/portfolio/static/media/greengrocer.1eaf3fa4.png",
+    "static/media/pinturaOne.06c1f1be.png": "/portfolio/static/media/pinturaOne.06c1f1be.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0bf68c44.js",
+    "static/js/2.b0284e37.chunk.js",
+    "static/js/main.71248935.chunk.js"
+  ]
+}
