@@ -28,7 +28,7 @@ const StyledProjects = styled(Projects)`
   p {
     font-size: 22px;
     opacity: 0.9;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
   }
 
   .projects {
@@ -60,6 +60,12 @@ const StyledProjects = styled(Projects)`
       }
     }
     
+  @media screen and (max-width: 750px) {
+
+    .project {
+      margin-bottom: 60px;
+    }
+
   }
 `;
 
