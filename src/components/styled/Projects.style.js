@@ -25,6 +25,12 @@ const StyledProjects = styled(Projects)`
     font-weight: 300;
   }
 
+  p {
+    font-size: 22px;
+    opacity: 0.9;
+    margin-bottom: 40px;
+  }
+
   .projects {
     display: flex;
     flex-wrap: wrap;
@@ -37,13 +43,19 @@ const StyledProjects = styled(Projects)`
       padding: 0 20px 0 20px;
     }
 
+    & .two {
+        & img {
+          height: 62px;
+        }
+      }
+
     img {
       width: 200px;
       border-radius: 10px;
       box-shadow: 5px 10px 10px #3046B9;
 
       &:hover {
-        /* border: solid white 6px; */
+        transform: translateY(5px);
         cursor: pointer;
       }
     }
