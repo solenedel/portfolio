@@ -6,18 +6,19 @@ const StyledProjects = styled(Projects)`
   flex-direction: column;
   align-items: center;
   align-self: center;
-  color: white;
+  color: black;
 
 
-  height: 500px;  
-  border-top: solid white 3px;
+  height: 400px;  
+  border-top: solid black 3px;
   width: 85%;
   
   h2 {
-    margin: 50px 0 50px 0;
+    margin: 50px 0 30px 0;
     font-size: 35px;
     font-family: 'PT Mono', monospace;
     font-weight: 700;
+    color: white;
   }
 
   h4 {
@@ -26,7 +27,7 @@ const StyledProjects = styled(Projects)`
   }
 
   p {
-    font-size: 22px;
+    font-size: 24px;
     opacity: 0.9;
     margin-bottom: 60px;
   }
@@ -39,15 +40,17 @@ const StyledProjects = styled(Projects)`
 
     & .project {
       border-radius: 10px;
-      margin: 0 50px 100px 50px;
+      margin: 0 50px 60px 50px;
       padding: 0 20px 0 20px;
-    }
+    
 
     & .two {
         & img {
           height: 62px;
         }
       }
+    }
+  }
 
     img {
       width: 200px;
@@ -62,10 +65,9 @@ const StyledProjects = styled(Projects)`
     
   @media screen and (max-width: 750px) {
 
-    .project {
-      margin-bottom: 60px;
-    }
-
+   .projects {
+     margin-bottom: 100px;
+   }
   }
 `;
 

@@ -11,8 +11,8 @@ const Header = ({className}) => {
 
         <div className="skills">
           <p>I'm a junior developer with a strong sense of artistic design. I like to design not only the outside appearance of website, but also the logic on the inside. </p>
-          <p>I have a degree in Environmental Science, and recently switched fields into web development. I'm now looking for my first job as a developer.</p>
-          <p>My favourite tools: <strong>JavaScript, Node.JS, ReactJS, HTML, CSS, Postgres and Git.</strong></p>
+          <p>I have a degree in Environmental Science, and recently switched fields into web development. I'm now looking for a job as a developer.</p>
+          <p>My favourite tools: <strong>JavaScript, Node.JS, ReactJS, HTML, CSS, Postgres, SQL and Git.</strong></p>
         </div>
 
         <div className="tools">
@@ -21,10 +21,7 @@ const Header = ({className}) => {
           <i className="fab fa-react" /> 
           <i className="fab fa-html5" />  
           <i className="fab fa-css3-alt" />
-          {/* <img src="./images/postgres.png" alt="psql" /> */}
           <img src="https://img.icons8.com/ios-filled/150/000000/postgreesql.png" alt="psql"/>
-          {/* credits!!! */}
-          {/* <a href="https://icons8.com/icon/36440/postgresql">PostgreSQL icon by Icons8</a> */}
           <i className="fab fa-git-square" />
         </div>
     </header>

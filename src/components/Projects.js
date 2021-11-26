@@ -6,7 +6,7 @@ const Projects = ({className}) => {
   return ( 
       <div className={className}>
         <h2>My projects</h2>
-        <p>Click to view the deployed project</p>
+        <p>Click to view the deployed project.</p>
         <div className="projects">
           <div className="project one">
             <a href="https://pintura-mintbean.herokuapp.com/" target="_blank" rel="noreferrer"><img src={pinturaOne} alt="Pintura"></img></a>

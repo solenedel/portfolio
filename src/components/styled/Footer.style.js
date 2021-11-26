@@ -3,10 +3,9 @@ import Footer from "../Footer";
 
 const StyledFooter = styled(Footer)`
 
-  /* height: 500px; */
   width: 85%;
   align-self: center;
-  padding-top: 30px;
+  padding-top: 20px;
   border-top: solid black 3px;
   display: flex;
   flex-direction: column;
@@ -15,7 +14,8 @@ const StyledFooter = styled(Footer)`
   h2 {
     font-family: 'PT Mono', monospace;
     font-size: 35px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+    color: white;
   }
 
   .contact {
@@ -33,7 +33,7 @@ const StyledFooter = styled(Footer)`
       transition: color 0.5s;
 
       &:hover {
-        color: #C9F799;
+        color: #FF90FD;
         transition: color 0.5s;
       }
     }
@@ -58,6 +58,10 @@ const StyledFooter = styled(Footer)`
         opacity: 0.75;
         text-decoration: none;
       }
+    }
+
+    @media screen and (max-width: 750px) {
+      margin-top: 100px;
     }
 `;
 
