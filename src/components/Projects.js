@@ -1,4 +1,6 @@
 import React from "react";
+import pinturaOne from "../images/pinturaOne.png";
+import greengrocer from "../images/greengrocer.png";
 
 const Projects = ({className}) => {
   return ( 
@@ -6,11 +8,10 @@ const Projects = ({className}) => {
         <h2>My projects</h2>
         <div className="projects">
           <div className="project one">
-            <h4>Pintura</h4>
-            <img src="http://solenedel.github.io/portfolio/blob/main/public/images/pintura-thumbnail-2.png" alt="pintura" />
+            <img src={pinturaOne} alt="Pintura" />
           </div>
           <div className="project two">
-           <h4>GreenGrocer</h4>
+          <img src={greengrocer} alt="GreenGrocer" />
           </div>
         </div>
       </div>

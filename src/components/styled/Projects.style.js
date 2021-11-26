@@ -33,10 +33,15 @@ const StyledProjects = styled(Projects)`
    
 
     & .project {
-      border: solid white 3px;
+      /* border: solid white 3px; */
       border-radius: 10px;
       margin: 0 50px 100px 50px;
       padding: 0 20px 0 20px;
+    }
+
+    img {
+      width: 200px;
+      border-radius: 10px;
     }
     
   }
