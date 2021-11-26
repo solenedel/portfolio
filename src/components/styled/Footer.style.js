@@ -47,9 +47,10 @@ const StyledFooter = styled(Footer)`
     }
 
     .credits {
-      height: 50px;
-      padding: 18px 0 0 20px;
-      background: rgba(0,0,0,0.7);
+      height: 20px;
+      /* padding-left: 40px; */
+      /* padding: 18px 0 0 20px; */
+      /* background: rgba(0,0,0,0.7); */
       width: 100vw;
       color: white;
 
@@ -62,6 +63,17 @@ const StyledFooter = styled(Footer)`
 
     @media screen and (max-width: 750px) {
       margin-top: 100px;
+
+      .email p {
+        font-size: 25px;
+      }
+    }
+
+    @media screen and (max-width: 450px) {
+
+      .email p {
+        font-size: 18px;
+      }
     }
 `;
 

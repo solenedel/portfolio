@@ -8,12 +8,8 @@ const Projects = ({className}) => {
         <h2>My projects</h2>
         <p>Click to view the deployed project.</p>
         <div className="projects">
-          <div className="project one">
-            <a href="https://pintura-mintbean.herokuapp.com/" target="_blank" rel="noreferrer"><img src={pinturaOne} alt="Pintura"></img></a>
-          </div>
-          <div className="project two">
-            <a href="https://www.greengrocer.me/" target="_blank" rel="noreferrer"><img src={greengrocer} alt="GreenGrocer"></img></a>
-          </div>
+            <a href="https://pintura-mintbean.herokuapp.com/" target="_blank" rel="noreferrer" className="project" id="one"><img src={pinturaOne} alt="Pintura"></img></a>
+            <a href="https://www.greengrocer.me/" target="_blank" rel="noreferrer" className="project" ><img src={greengrocer} alt="GreenGrocer"></img></a>
         </div>
       </div>
    );

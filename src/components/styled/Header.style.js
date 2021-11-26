@@ -62,7 +62,7 @@ const StyledHeader = styled(Header)`
     align-items: flex-start;
 
     h1 {
-      font-size: 60px;
+      font-size: 55px;
     }
 
     h1, h2, h3, .skills {
@@ -70,7 +70,19 @@ const StyledHeader = styled(Header)`
     }
 
     h3 {
-      font-size: 25px;
+      font-size: 22px;
+    }
+
+    p {
+      font-size: 20px;
+    }
+
+    .tools i {
+      font-size: 40px;
+    }
+
+    .tools img {
+      height: 40px;
     }
   }
 `;

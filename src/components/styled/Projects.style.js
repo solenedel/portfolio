@@ -9,7 +9,7 @@ const StyledProjects = styled(Projects)`
   color: black;
 
 
-  height: 400px;  
+  /* height: 400px;   */
   border-top: solid black 3px;
   width: 85%;
   
@@ -36,26 +36,26 @@ const StyledProjects = styled(Projects)`
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-   
-
-    & .project {
-      border-radius: 10px;
-      margin: 0 50px 60px 50px;
-      padding: 0 20px 0 20px;
-    
-
-    & .two {
-        & img {
-          height: 62px;
-        }
-      }
-    }
+    /* border: solid red 3px; */
+    overflow-y: show;
+    width: 100%;
   }
 
+  .project img {
+    box-shadow: 5px 10px 10px #3046B9;
+  }
+
+  a {
+    padding: 5px 15px 20px 15px;
+  }
+   
+  #one {
+      margin-bottom: 40px;
+    }
+
     img {
-      width: 200px;
+      width: 60vw;
       border-radius: 10px;
-      box-shadow: 5px 10px 10px #3046B9;
 
       &:hover {
         transform: translateY(5px);
