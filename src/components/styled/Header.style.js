@@ -61,6 +61,10 @@ const StyledHeader = styled(Header)`
 
     align-items: flex-start;
 
+    h1 {
+      font-size: 60px;
+    }
+
     h1, h2, h3, .skills {
       margin-left: 30px;
     }
