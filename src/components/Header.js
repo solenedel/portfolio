@@ -10,8 +10,8 @@ const Header = ({className}) => {
         <h3><i className="fas fa-map-marker-alt" /> Currently: Greater Vancouver, BC</h3>
 
         <div className="skills">
-          <p>I'm a junior developer with a strong sense of artistic design. I like to design not only the outside appearance of website, but also the logic on the inside. </p>
-          <p>I have a degree in Environmental Science, and recently switched fields into web development. I'm now looking for a job as a developer.</p>
+          <p>I'm a junior developer with a keen sense of visual design. I like to build not only the outside appearance of website, but also the logic on the inside. </p>
+          <p>I recently switched fields into web development, completing a full stack web development bootcamp (Lighthouse Labs) in October 2021. I'm now looking for a job as a developer.</p>
           <p>My favourite tools: <strong>JavaScript, Node.JS, ReactJS, HTML, CSS, Postgres, SQL and Git.</strong></p>
         </div>
 

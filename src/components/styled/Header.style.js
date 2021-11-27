@@ -5,8 +5,9 @@ const StyledHeader = styled(Header)`
 
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  /* height: 1000px; */
+  justify-content: center;
 
   h1 {
     margin: 80px 0 60px 0;
@@ -30,7 +31,9 @@ const StyledHeader = styled(Header)`
     width: 85%;
     font-size: 24px;
     line-height: 40px;
-    /* border: solid red 3px; */
+    align-self: center;
+    /* justify-content: center; */
+    /* align-items: center; */
   }
 
   .skills {
@@ -65,9 +68,10 @@ const StyledHeader = styled(Header)`
       font-size: 55px;
     }
 
-    h1, h2, h3, .skills {
+    h1, h2, h3 {
       margin-left: 30px;
     }
+
 
     h3 {
       font-size: 22px;
