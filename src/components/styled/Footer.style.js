@@ -5,7 +5,7 @@ const StyledFooter = styled(Footer)`
 
   width: 85%;
   align-self: center;
-  padding-top: 20px;
+  /* padding-top: 20px; */
   border-top: solid black 3px;
   display: flex;
   flex-direction: column;
@@ -48,11 +48,8 @@ const StyledFooter = styled(Footer)`
 
     .credits {
       height: 20px;
-      /* padding-left: 40px; */
-      /* padding: 18px 0 0 20px; */
-      /* background: rgba(0,0,0,0.7); */
-      width: 100vw;
       color: white;
+      opacity: 0.6;
 
       a, a:hover, a:visited {
         color: white;
@@ -62,14 +59,12 @@ const StyledFooter = styled(Footer)`
     }
 
     @media screen and (max-width: 750px) {
-      margin-top: 100px;
-
       .email p {
         font-size: 25px;
       }
     }
 
-    @media screen and (max-width: 450px) {
+    @media screen and (max-width: 350px) {
 
       .email p {
         font-size: 18px;

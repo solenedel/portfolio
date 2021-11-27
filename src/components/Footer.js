@@ -17,7 +17,6 @@ const Footer = ({className}) => {
       </div>
 
       <div className="credits">
-        {/* <a href="https://fontawesome.com/">Icons by Font Awesome. </a> */}
         <a href="https://icons8.com/icon/36440/postgresql">PostgreSQL icon by Icons8.</a> 
       </div>
     </footer>

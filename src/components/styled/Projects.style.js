@@ -7,9 +7,6 @@ const StyledProjects = styled(Projects)`
   align-items: center;
   align-self: center;
   color: black;
-
-
-  /* height: 400px;   */
   border-top: solid black 3px;
   width: 85%;
   
@@ -36,17 +33,15 @@ const StyledProjects = styled(Projects)`
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* border: solid red 3px; */
     overflow-y: show;
-    width: 100%;
-  }
-
-  .project img {
-    box-shadow: 5px 10px 10px #3046B9;
+    width: 80%;
+    max-width: 500px;
+    /* padding-bottom: 10px; */
   }
 
   a {
     padding: 5px 15px 20px 15px;
+    max-width: 50%;
   }
    
   #one {
@@ -54,8 +49,9 @@ const StyledProjects = styled(Projects)`
     }
 
     img {
-      width: 60vw;
       border-radius: 10px;
+      box-shadow: 5px 10px 10px #3046B9;
+      max-width: 100%;
 
       &:hover {
         transform: translateY(5px);
@@ -67,8 +63,29 @@ const StyledProjects = styled(Projects)`
 
    .projects {
      margin-bottom: 100px;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     max-width: 100%; 
    }
+
+   a {
+    max-width: 80%;
   }
+
+  }
+
+  /* @media screen and (max-width: 500px) {
+
+    .projects {
+      border: solid red 3px;
+    }
+
+    /* .projects a{
+      width: 100px;
+} */
+
+/* }  */
 `;
 
 export default StyledProjects;
