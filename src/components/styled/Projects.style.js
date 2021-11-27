@@ -56,6 +56,7 @@ const StyledProjects = styled(Projects)`
       &:hover {
         transform: translateY(5px);
         cursor: pointer;
+        box-shadow: 5px 5px 5px #3046B9;
       }
     }
     
@@ -69,23 +70,12 @@ const StyledProjects = styled(Projects)`
      max-width: 100%; 
    }
 
-   a {
-    max-width: 80%;
-  }
-
-  }
-
-  /* @media screen and (max-width: 500px) {
-
-    .projects {
-      border: solid red 3px;
+    a {
+      max-width: 80%;
     }
 
-    /* .projects a{
-      width: 100px;
-} */
+  }
 
-/* }  */
 `;
 
 export default StyledProjects;

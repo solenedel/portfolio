@@ -7,7 +7,6 @@ const StyledHeader = styled(Header)`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  justify-content: center;
 
   h1 {
     margin: 80px 0 60px 0;
@@ -17,6 +16,13 @@ const StyledHeader = styled(Header)`
     font-weight: 700;
     font-size: 80px;
     font-family: 'PT Mono', monospace;
+  }
+
+  h2 {
+    position: center;
+    text-align: center;
+    font-family: 'PT Mono', monospace;
+    color: white;
   }
 
   h3 {
@@ -32,8 +38,6 @@ const StyledHeader = styled(Header)`
     font-size: 24px;
     line-height: 40px;
     align-self: center;
-    /* justify-content: center; */
-    /* align-items: center; */
   }
 
   .skills {
@@ -75,6 +79,7 @@ const StyledHeader = styled(Header)`
 
     h3 {
       font-size: 22px;
+      line-height: 30px;
     }
 
     p {
