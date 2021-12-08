@@ -11,8 +11,8 @@ const Projects = ({className}) => {
         <p>Click to view the deployed project.</p>
         <div className="projects">
             <a href="https://pintura-mintbean.herokuapp.com/" target="_blank" rel="noreferrer" className="project" id="one"><img src={pintura} alt="Pintura"></img></a>
+            <a href="https://www.https://solenedel.github.io/TodayList/" target="_blank" rel="noreferrer" className="project" ><img src={todaylist} alt="TodayList"></img></a>
             <a href="https://www.greengrocer.me/" target="_blank" rel="noreferrer" className="project" ><img src={greengrocer} alt="GreenGrocer"></img></a>
-             <a href="https://www.https://solenedel.github.io/TodayList/" target="_blank" rel="noreferrer" className="project" ><img src={todaylist} alt="TodayList"></img></a>
         </div>
       </div>
    );

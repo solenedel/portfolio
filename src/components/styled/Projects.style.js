@@ -36,6 +36,7 @@ const StyledProjects = styled(Projects)`
     overflow-y: show;
     width: 80%;
     max-width: 500px;
+    margin-bottom: 80px;
     /* padding-bottom: 10px; */
   }
 
@@ -43,10 +44,10 @@ const StyledProjects = styled(Projects)`
     padding: 5px 15px 20px 15px;
     max-width: 50%;
   }
-   
+/*    
   #one {
       margin-bottom: 40px;
-    }
+    } */
 
     img {
       border-radius: 10px;
