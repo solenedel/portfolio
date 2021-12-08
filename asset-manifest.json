@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.2543aada.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.2543aada.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.228a5d78.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.228a5d78.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.0bf68c44.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.0bf68c44.js.map",
     "static/js/2.b0284e37.chunk.js": "/portfolio/static/js/2.b0284e37.chunk.js",
@@ -9,11 +9,12 @@
     "index.html": "/portfolio/index.html",
     "static/js/2.b0284e37.chunk.js.LICENSE.txt": "/portfolio/static/js/2.b0284e37.chunk.js.LICENSE.txt",
     "static/media/greengrocer.1eaf3fa4.png": "/portfolio/static/media/greengrocer.1eaf3fa4.png",
-    "static/media/pinturaOne.06c1f1be.png": "/portfolio/static/media/pinturaOne.06c1f1be.png"
+    "static/media/pintura.892b8eae.png": "/portfolio/static/media/pintura.892b8eae.png",
+    "static/media/todaylist.90172086.png": "/portfolio/static/media/todaylist.90172086.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0bf68c44.js",
     "static/js/2.b0284e37.chunk.js",
-    "static/js/main.2543aada.chunk.js"
+    "static/js/main.228a5d78.chunk.js"
   ]
 }
