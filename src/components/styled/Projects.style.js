@@ -37,7 +37,6 @@ const StyledProjects = styled(Projects)`
     width: 80%;
     max-width: 500px;
     margin-bottom: 80px;
-    /* padding-bottom: 10px; */
   }
 
   a {
