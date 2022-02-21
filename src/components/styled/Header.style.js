@@ -18,12 +18,17 @@ const StyledHeader = styled(Header)`
     padding-bottom: 50px;
   }
 
-  img#name {
+  div.title {
     margin: 70px 0 30px 0;
-    width: 80vw;
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    
+    & img#firstname {
+      margin-right: 7vw;
+    }
   }
  
-
   h1 {
     margin: 80px 0 60px 0;
     height: fit-content;
@@ -87,6 +92,19 @@ const StyledHeader = styled(Header)`
 
   @media screen and (max-width: 750px) {
 
+ div.title {
+    flex-direction: column;
+  }
+     
+img#firstname {
+  width: 60vw;
+  margin-bottom: 30px;
+}
+ 
+img#lastname {
+  width: 80vw;
+}
+
     span.header {
        align-items: flex-start;
     }
@@ -100,7 +118,7 @@ const StyledHeader = styled(Header)`
       margin-left: 30px;
     }
 
-    img#name {
+    div.title img {
     margin-left: 30px;
     width: 80vw;
   }
@@ -141,7 +159,7 @@ const StyledHeader = styled(Header)`
       margin-left: 5vw;
     }
 
-     img#name {
+     div.title img {
       margin-left: 2vw;
       width: 95vw;
     }
