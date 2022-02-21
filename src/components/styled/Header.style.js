@@ -140,6 +140,12 @@ const StyledHeader = styled(Header)`
       width: 90vw;
       margin-left: 5vw;
     }
+
+     img#name {
+      margin-left: 2vw;
+      width: 95vw;
+    }
+
    }
 `;
 
