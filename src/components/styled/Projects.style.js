@@ -37,7 +37,7 @@ const StyledProjects = styled(Projects)`
     overflow-y: show;
     width: 80%;
     max-width: 500px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
   }
 
   a {
@@ -62,12 +62,11 @@ const StyledProjects = styled(Projects)`
     width: 100%;
 
    .projects {
-     margin-bottom: 100px;
      flex-direction: column;
      justify-content: center;
      align-items: center;
-     max-width: 100%; 
-
+     max-width: 60vw;
+  
      & img {
        margin-bottom: 25px;
      }
@@ -78,6 +77,14 @@ const StyledProjects = styled(Projects)`
     }
 
   }
+
+   @media screen and (max-width: 430px) {
+
+    .projects {
+       max-width: 80vw;
+    }
+   }
+
 
 `;
 

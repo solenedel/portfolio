@@ -160,8 +160,8 @@ img#lastname {
     }
 
      div.title img {
-      margin-left: 2vw;
-      width: 95vw;
+      margin-left: 5vw;
+      width: 100vw;
     }
 
    }

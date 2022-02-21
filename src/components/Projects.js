@@ -8,7 +8,6 @@ const Projects = ({className}) => {
   return ( 
       <div className={className}>
         <h2>My projects</h2>
-        <p>Click to view a project.</p>
         <div className="projects">
             <a href="https://pintura-mintbean.herokuapp.com/" target="_blank" rel="noreferrer" className="project" id="one"><img src={pintura} alt="Pintura"></img></a>
             <a href="https://solenedel.github.io/TodayList/" target="_blank" rel="noreferrer" className="project" ><img src={todaylist} alt="TodayList"></img></a>
