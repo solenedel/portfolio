@@ -14,14 +14,14 @@ const StyledHeader = styled(Header)`
     padding: 0;
     display: inline-block;
     font-weight: 700;
-    font-size: 80px;
-    font-family: 'PT Mono', monospace;
+    font-size: 70px;
+    font-family: 'Share Tech Mono', monospace;
   }
 
   h2 {
     position: center;
     text-align: center;
-    font-family: 'PT Mono', monospace;
+    font-family: 'Share Tech Mono', monospace;
     color: white;
   }
 
@@ -38,6 +38,14 @@ const StyledHeader = styled(Header)`
     font-size: 24px;
     line-height: 40px;
     align-self: center;
+  }
+
+  span.plane {
+    transform: rotate(45deg);
+  }
+
+  span.pin-icon, span.emoji {
+    font-size: 40px;
   }
 
   .skills {
@@ -69,7 +77,7 @@ const StyledHeader = styled(Header)`
     align-items: flex-start;
 
     h1 {
-      font-size: 55px;
+      font-size: 60px;
     }
 
     h1, h2, h3 {
@@ -79,13 +87,19 @@ const StyledHeader = styled(Header)`
 
     h3 {
       font-size: 22px;
-      line-height: 30px;
+      line-height: 50px;
+      width: 70vw;
     }
 
     p {
       font-size: 20px;
     }
 
+    .tools {
+      display: grid;
+      grid-template-columns: 25% 25% 25% 25%;
+      /* grid-gap: 15px; */
+    }
     .tools i {
       font-size: 40px;
     }

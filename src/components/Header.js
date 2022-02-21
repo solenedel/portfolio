@@ -5,16 +5,14 @@ const Header = ({className}) => {
   return ( 
     <header className={className}>
         <h1>Solène Delumeau</h1>
-        <h3>full stack developer.</h3>
-        <h3>France <i className="fas fa-plane" /> Japan <i className="fas fa-plane" /> China <i className="fas fa-plane" /> Singapore <i className="fas fa-plane" /> Canada</h3>
-        <h3><i className="fas fa-map-marker-alt" /> Currently: Greater Vancouver, BC</h3>
+        <h3><span className="emoji">👾</span> full stack developer</h3>
+        <h3><span className="pin-icon">📍</span> Greater Vancouver, BC</h3>
+        <h3>France <span className="plane">✈️</span> Japan <span className="plane">✈️</span> China <span className="plane">✈️</span> Singapore <span className="plane">✈️</span> Canada</h3>
 
         <div className="skills">
           <h2>About me</h2>
-          <p>I'm a junior developer with a keen sense of visual design. I tend towards the front end, but am highly motivated in developing the full stack.</p>
-          <p>I majored in Environmental Science at the University of British Columbia, and discovered web development during my last term. Shortly after graduating, I decided to focus on learning web development.</p>
-          <p>In October 2021, I graduated from the full stack web development bootcamp at Lighthouse Labs. Now, I'm working on my own projects and looking for work as a developer.</p>
-          <p>My favourite tools: <strong> ReactJS, Node.JS, JavaScript, HTML, CSS, Postgres, SQL and Git.</strong></p>
+          <p>I'm a full-stack developer with a keen sense of visual design. I started coding during my last term of university. In October 2021, I graduated from the full stack web development bootcamp at Lighthouse Labs.</p>
+          <p>I come from France, and spent 18 years in Asia before moving to Canada. Coding is my newest hobby, but in my spare time I also like drawing and running.</p>
         </div>
 
         <div className="tools">

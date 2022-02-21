@@ -13,7 +13,7 @@ const StyledProjects = styled(Projects)`
   h2 {
     margin: 50px 0 30px 0;
     font-size: 35px;
-    font-family: 'PT Mono', monospace;
+   font-family: 'Share Tech Mono', monospace;
     font-weight: 700;
     color: white;
   }

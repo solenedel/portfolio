@@ -12,7 +12,7 @@ const StyledFooter = styled(Footer)`
   align-items: center;
 
   h2 {
-    font-family: 'PT Mono', monospace;
+    font-family: 'Share Tech Mono', monospace;
     font-size: 35px;
     margin-bottom: 40px;
     color: white;
