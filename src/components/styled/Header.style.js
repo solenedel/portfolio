@@ -108,6 +108,18 @@ const StyledHeader = styled(Header)`
       height: 40px;
     }
   }
+
+   @media screen and (max-width: 415px) {
+
+    span.pin-icon, span.emoji {
+      font-size: 30px;
+    }
+
+    h3 {
+      width: 90vw;
+      margin-left: 5vw;
+    }
+   }
 `;
 
 export default StyledHeader;
