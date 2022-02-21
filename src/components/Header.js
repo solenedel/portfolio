@@ -4,10 +4,13 @@ import React from "react";
 const Header = ({className}) => {
   return ( 
     <header className={className}>
-        <h1>Solène Delumeau</h1>
+      <span className="header">
+        <img id="name" src="https://see.fontimg.com/api/renderfont4/wvM6/eyJyIjoiZnMiLCJoIjoxNDgsInciOjIwMDAsImZzIjo3NCwiZmdjIjoiI0ZFRkFGQSIsImJnYyI6IiNCMDkzOTMiLCJ0IjoxfQ/U29sZW5lIERlbHVtZWF1/derrida.png" alt="Transparent fonts"/>
         <h3><span className="emoji">👾</span> full stack developer</h3>
         <h3><span className="pin-icon">📍</span> Greater Vancouver, BC</h3>
         <h3>France <span className="plane">✈️</span> Japan <span className="plane">✈️</span> China <span className="plane">✈️</span> Singapore <span className="plane">✈️</span> Canada</h3>
+      </span>
+        
 
         <div className="skills">
           <h2>About me</h2>

@@ -5,8 +5,7 @@ const StyledFooter = styled(Footer)`
 
   width: 85%;
   align-self: center;
-  /* padding-top: 20px; */
-  border-top: solid black 3px;
+  padding-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;

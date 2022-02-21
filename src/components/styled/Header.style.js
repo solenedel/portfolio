@@ -8,6 +8,22 @@ const StyledHeader = styled(Header)`
   justify-content: center;
   align-items: center;
 
+  span.header {
+    background: black;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+  }
+
+  img#name {
+    margin: 70px 0 30px 0;
+    width: 80vw;
+  }
+ 
+
   h1 {
     margin: 80px 0 60px 0;
     height: fit-content;
@@ -16,6 +32,7 @@ const StyledHeader = styled(Header)`
     font-weight: 700;
     font-size: 70px;
     font-family: 'Share Tech Mono', monospace;
+    color: white;
   }
 
   h2 {
@@ -48,10 +65,6 @@ const StyledHeader = styled(Header)`
     font-size: 40px;
   }
 
-  .skills {
-     border-top: solid black 3px;
-  }
-
   .tools {
     margin-top: 20px;
     display: flex;
@@ -74,6 +87,9 @@ const StyledHeader = styled(Header)`
 
   @media screen and (max-width: 750px) {
 
+    span.header {
+       align-items: flex-start;
+    }
     align-items: flex-start;
 
     h1 {
@@ -83,6 +99,11 @@ const StyledHeader = styled(Header)`
     h1, h2, h3 {
       margin-left: 30px;
     }
+
+    img#name {
+    margin-left: 30px;
+    width: 80vw;
+  }
 
 
     h3 {

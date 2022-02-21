@@ -6,14 +6,15 @@ const StyledProjects = styled(Projects)`
   flex-direction: column;
   align-items: center;
   align-self: center;
-  color: black;
-  border-top: solid black 3px;
-  width: 85%;
+  color:  #ffffff98;
+  width: 100%;
+  background: black;
+
   
   h2 {
     margin: 50px 0 30px 0;
     font-size: 35px;
-   font-family: 'Share Tech Mono', monospace;
+    font-family: 'Share Tech Mono', monospace;
     font-weight: 700;
     color: white;
   }
@@ -43,10 +44,7 @@ const StyledProjects = styled(Projects)`
     padding: 5px 15px 20px 15px;
     max-width: 50%;
   }
-/*    
-  #one {
-      margin-bottom: 40px;
-    } */
+
 
     img {
       border-radius: 10px;
@@ -61,6 +59,7 @@ const StyledProjects = styled(Projects)`
     }
     
   @media screen and (max-width: 750px) {
+    width: 100%;
 
    .projects {
      margin-bottom: 100px;
@@ -68,6 +67,10 @@ const StyledProjects = styled(Projects)`
      justify-content: center;
      align-items: center;
      max-width: 100%; 
+
+     & img {
+       margin-bottom: 25px;
+     }
    }
 
     a {
