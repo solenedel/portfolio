@@ -17,6 +17,15 @@ const StyledProjects = styled(Projects)`
 
   }
 
+  div.myTools {
+    color: white;
+    font-size: 24px;
+    width: 80%;
+    margin-top: 10px;
+   line-height: 3rem;
+   margin-bottom: 40px;
+  }
+
   a.titleBox {
     /* background: black; */
     
