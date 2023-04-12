@@ -12,6 +12,7 @@ const StyledFooter = styled(Footer)`
 
   div.flexBox {
     display: flex;
+    flex-direction: row;
     width: 100%;
  
     align-items: center;
@@ -85,9 +86,32 @@ const StyledFooter = styled(Footer)`
     }
 
     @media screen and (max-width: 750px) {
-      .email p {
+      /* .email p {
         font-size: 25px;
+      } */
+
+      div.flexBox {
+          flex-direction: column;
+          width: 100%;
+          /* align-items: baseline;
+          justify-content: center; */
+
+
+          div.contactIcons {
+            display: flex;
+            width: 80vw;
+            justify-content: space-around;
+            
+          }
+          div.contactIcons a {
+            font-size: 40px;
+             margin: 20px 0 30px 0;
+             width: 100vw;
+             /* background: black; */
+
+          }
       }
+    
     }
 
     @media screen and (max-width: 350px) {

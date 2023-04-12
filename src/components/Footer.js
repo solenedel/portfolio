@@ -9,14 +9,16 @@ import {faInstagram} from '@fortawesome/free-brands-svg-icons';
 const Footer = ({className}) => {
   return ( 
     <footer className={className}>
-      <div className="flexBox"><a href="https://www.fontspace.com/category/final-fantasy"><img className="contactTitle" src="https://see.fontimg.com/api/renderfont4/wy99/eyJyIjoiZnMiLCJoIjoxMDAsInciOjIwMDAsImZzIjo1MCwiZmdjIjoiI0ZGRkZGRiIsImJnYyI6IiNGRkZERkQiLCJ0IjoxfQ/Y29udGFjdCBtZQ/ferrum.png" alt="Final Fantasy fonts"/></a>
-      <div className="contactIcons">
+      <div className="flexBox">
+        <a href="https://www.fontspace.com/category/final-fantasy"><img className="contactTitle" src="https://see.fontimg.com/api/renderfont4/wy99/eyJyIjoiZnMiLCJoIjoxMDAsInciOjIwMDAsImZzIjo1MCwiZmdjIjoiI0ZGRkZGRiIsImJnYyI6IiNGRkZERkQiLCJ0IjoxfQ/Y29udGFjdCBtZQ/ferrum.png" alt="Final Fantasy fonts" /></a>
+        <div className="contactIcons">
       <a href="https://www.linkedin.com/in/solene-delumeau" target="_blank" rel="noreferrer">  <FontAwesomeIcon icon={faLinkedin} /></a>
       <a href="https://www.github.com/solenedel" target="_blank" rel="noreferrer">  <FontAwesomeIcon icon={faGithub} /></a> 
           <a href="mailto:solene.delumeau@gmail.com" target="_blank" rel="noreferrer">    <FontAwesomeIcon icon={faEnvelope} /></a>
           <a href="https://www.instagram.com/mezanote.png" target="_blank" rel="noreferrer">  <FontAwesomeIcon icon={faInstagram} /></a> 
      
-      </div></div>
+        </div>
+      </div>
      
       {/* <div className="email">
         <p>solenedelumeau@gmail.com</p>
