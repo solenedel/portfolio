@@ -9,6 +9,7 @@ const StyledProjects = styled(Projects)`
   color:  #ffffff98;
   width: 100%;
   background: black;
+  margin-top: 5%;
 
   
   h2 {
@@ -36,7 +37,7 @@ const StyledProjects = styled(Projects)`
     justify-content: center;
     overflow-y: show;
     width: 80%;
-    max-width: 500px;
+    max-width: 800px;
     margin-bottom: 40px;
   }
 
@@ -48,13 +49,13 @@ const StyledProjects = styled(Projects)`
 
     img {
       border-radius: 10px;
-      box-shadow: 5px 10px 10px #3046B9;
+      /* box-shadow: 5px 10px 10px white; */
       max-width: 100%;
 
       &:hover {
         transform: translateY(5px);
         cursor: pointer;
-        box-shadow: 5px 5px 5px #3046B9;
+        /* box-shadow: 5px 5px 5px white; */
       }
     }
     

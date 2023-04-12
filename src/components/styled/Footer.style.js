@@ -32,7 +32,7 @@ const StyledFooter = styled(Footer)`
       transition: color 0.5s;
 
       &:hover {
-        color: #B1FFE0;
+        color: white;
         transition: color 0.5s;
       }
     }

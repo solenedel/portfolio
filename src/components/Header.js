@@ -22,7 +22,7 @@ const Header = ({className}) => {
           <p>Developer with a sharp eye for visuals. I have one year of professional experience in full-stack web development. I started coding in 2021, during my last term of university.  </p>
           <p>I was born in Paris in 1998. My family then moved to Asia, where we lived for 18 years. In 2016 I moved to Vancouver, Canada for my university studies.  </p>
         </div>
-
+{/* 
         <div className="tools">
           <i className="fab fa-react" /> 
           <i className="fab fa-js-square" />
@@ -31,7 +31,7 @@ const Header = ({className}) => {
           <i className="fab fa-css3-alt" />
           <img src="https://img.icons8.com/ios-filled/150/000000/postgreesql.png" alt="psql"/>
           <i className="fab fa-git-square" />
-        </div>
+        </div> */}
     </header>
    );
 }

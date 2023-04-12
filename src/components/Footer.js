@@ -16,9 +16,9 @@ const Footer = ({className}) => {
         <p>solenedelumeau@gmail.com</p>
       </div>
 
-      <div className="credits">
+      {/* <div className="credits">
         <a href="https://icons8.com/icon/36440/postgresql">PostgreSQL icon by Icons8.</a> 
-      </div>
+      </div> */}
     </footer>
    );
 }
