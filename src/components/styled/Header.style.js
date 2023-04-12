@@ -35,14 +35,15 @@ const StyledHeader = styled(Header)`
   }
 
   div.title {
-    margin: 70px 0 30px 0;
-    width: 80vw;
+    margin: 70px 0 30px 10%;
+    width: 100vw;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     
     & img.firstName {
       margin-right: 7vw;
       max-width: 300px;
+      margin-bottom: 50px;
     }
     & img.lastName {
       max-width: 442px;
@@ -72,6 +73,9 @@ const StyledHeader = styled(Header)`
     font-weight: 200;
     color: white;
    margin-bottom:80px;
+    background: rgba(0,0,0,0.6);
+    padding: 10px 0 10px 40px;
+   width: 100vw;
   }
 
   .skills, .tools {

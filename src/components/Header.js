@@ -15,7 +15,7 @@ const Header = ({className}) => {
        <a href="https://www.fontspace.com/category/final-fantasy" ><img className="lastName" src="https://see.fontimg.com/api/renderfont4/wy99/eyJyIjoiZnMiLCJoIjoxMDAsInciOjIwMDAsImZzIjo1MCwiZmdjIjoiI0ZGRkZGRiIsImJnYyI6IiNGRkZERkQiLCJ0IjoxfQ/ZGVsdW1lYXU/ferrum.png" alt="Final Fantasy fonts"/></a></div>
       
         {/* <img id="name" src="https://see.fontimg.com/api/renderfont4/wvM6/eyJyIjoiZnMiLCJoIjoxNDgsInciOjIwMDAsImZzIjo3NCwiZmdjIjoiI0ZFRkFGQSIsImJnYyI6IiNCMDkzOTMiLCJ0IjoxfQ/U29sZW5lIERlbHVtZWF1/derrida.png" alt="Transparent fonts"/> */}
-        <h3> ✦ software developer ✦ amateur artist ✦ </h3>
+        <h3> ✦ software developer ✦ open to work opportunities ✦ </h3>
         
         
       
