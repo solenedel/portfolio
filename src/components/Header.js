@@ -15,8 +15,7 @@ const Header = ({className}) => {
         <h3> ✦ software developer ✦ amateur artist ✦ </h3>
         
         
-        
-
+      
         <div className="skills">
         
           <h2>About me</h2>

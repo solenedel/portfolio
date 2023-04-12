@@ -8,6 +8,7 @@ const StyledHeader = styled(Header)`
   justify-content: center;
   align-items: center;
 
+
   span.header {
     width: 100vw;
     display: flex;
@@ -57,7 +58,7 @@ const StyledHeader = styled(Header)`
     font-size: 27px;
     font-weight: 200;
     color: white;
-   
+   margin-bottom:80px;
   }
 
   .skills, .tools {
@@ -86,6 +87,7 @@ margin-top: 40px;
     width: 80%;
     padding-left: 10%;
   }
+
 
   span.plane {
     transform: rotate(45deg);
@@ -116,6 +118,21 @@ margin-top: 40px;
  
 
   @media screen and (max-width: 750px) {
+
+    span.flexBox {
+      flex-direction: column-reverse;
+    }
+
+     span.flexText {
+    width: 100%;
+    padding-left: 0%;
+    padding-top: 0%;
+  }
+
+ img.photo{
+  position: center;
+ }
+
 
  div.title {
     flex-direction: column;
