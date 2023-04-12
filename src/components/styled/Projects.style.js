@@ -11,6 +11,11 @@ const StyledProjects = styled(Projects)`
   /* background: black; */
   margin-top: 5%;
 
+    img.projectsTitle {
+    margin: 30px 0 0 0;
+    width:200px;
+  }
+
   
   h2 {
     margin: 50px 0 30px 0;
@@ -47,9 +52,10 @@ const StyledProjects = styled(Projects)`
   }
 
 
-    img {
+    img.project {
       border-radius: 10px;
-      /* box-shadow: 5px 10px 10px white; */
+      box-shadow: 5px 5px 5px rgba(0,0,0,0.6);
+
       max-width: 100%;
 
       &:hover {

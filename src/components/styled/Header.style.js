@@ -8,6 +8,15 @@ const StyledHeader = styled(Header)`
   justify-content: center;
   align-items: center;
 
+  img.titleImg {
+    margin:10% 0 10% 0;
+    width:700px;
+    opacity: 0.9;
+  }
+    img.aboutMe {
+    margin: 30px 0 0 0;
+    width:200px;
+  }
 
   span.header {
     width: 100vw;
