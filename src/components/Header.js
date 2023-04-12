@@ -1,5 +1,5 @@
 import React from "react";
-import me from "../images/me.jpg";
+import dp from "../images/dp.jpg";
 
 
 const Header = ({className}) => {
@@ -23,11 +23,11 @@ const Header = ({className}) => {
          
           
           
-          <span className="flexBox"><img className="photo" src={me} alt="me" />
+          <span className="flexBox"><img className="photo" src={dp} alt="me" />
             <span className="flexText">
-              <p>Developer with a sharp eye for visuals. I have one year of professional experience in full-stack web development. I started coding in 2021, during my last term of university.  </p>
-              <p>I was born in Paris in 1998. My family then moved to Asia, where we lived for 18 years. In 2016 I moved to Vancouver, Canada for my university studies.  </p>
-            <p>Art has been my hobby for over 2 decades. Lately, I've started getting into pixel art. Follow me on instagram here!   </p></span>
+              <p>Developer with a sharp eye for aesthetics, and bilingual (English – French). I have one year of professional experience in full-stack web development.  </p>
+              <p>I was born in Paris in 1998. My family then moved to Asia, where we lived for 18 years. In 2016 I moved to Vancouver for university (class of 2021, B.Sc. Environmental Science).  </p>
+            <p>Art has always been my hobby. Lately, I've started getting into pixel art. Follow me on instagram here!   </p></span>
             
           <span></span></span>
          

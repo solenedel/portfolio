@@ -73,7 +73,7 @@ const StyledHeader = styled(Header)`
   .skills, .tools {
     margin: 50px 0 0 0;
     width: 100%;
-    padding: 0 5% 0 5%;
+    padding: 5% 5% 5% 5%;
     font-size: 24px;
     line-height: 40px;
     align-self: center;

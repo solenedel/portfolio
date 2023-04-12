@@ -39,6 +39,7 @@ const StyledProjects = styled(Projects)`
     font-size: 24px;
     opacity: 0.9;
     margin-bottom: 60px;
+    color: white;
   }
 
   .projects {
