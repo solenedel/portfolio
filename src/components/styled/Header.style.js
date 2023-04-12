@@ -71,10 +71,9 @@ const StyledHeader = styled(Header)`
   }
 
  img.photo {
-  width: 300px;
 border-radius: 10px;
-width: 50%;
-max-width: 400px;
+max-width: 300px;
+min-width: 300px;
 margin-bottom: 40px;
 margin-top: 40px;
   }
@@ -83,8 +82,8 @@ margin-top: 40px;
     display: flex;
     width: 100%;
   }
-    p.flexText {
-    width: 70%;
+    span.flexText {
+    width: 80%;
     padding-left: 10%;
   }
 

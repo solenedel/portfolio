@@ -22,11 +22,15 @@ const Header = ({className}) => {
           <h2>About me</h2>
          
           <p>Developer with a sharp eye for visuals. I have one year of professional experience in full-stack web development. I started coding in 2021, during my last term of university.  </p>
-          <p>I was born in Paris in 1998. My family then moved to Asia, where we lived for 18 years. In 2016 I moved to Vancouver, Canada for my university studies.  </p>
+          
           
           <span className="flexBox"><img className="photo" src={me} alt="me" />
-          <p className="flexText">Art has been my hobby for over 2 decades. Lately, I've started getting into pixel art.   </p></span>
-          
+            <span className="flexText">
+              <p>I was born in Paris in 1998. My family then moved to Asia, where we lived for 18 years. In 2016 I moved to Vancouver, Canada for my university studies.  </p>
+            <p>Art has been my hobby for over 2 decades. Lately, I've started getting into pixel art. Follow me on instagram here!   </p></span>
+            
+          <span></span></span>
+         
         </div>
 {/* 
         <div className="tools">
