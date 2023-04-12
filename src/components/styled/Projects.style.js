@@ -12,7 +12,7 @@ const StyledProjects = styled(Projects)`
   margin-top: 5%;
 
     img.projectsTitle {
-    margin: 30px 0 30px 0;
+    margin: 30px 0 50px 0;
     width:200px;
 
   }
@@ -29,6 +29,7 @@ const StyledProjects = styled(Projects)`
 
   a.titleBox {
     /* background: black; */
+    /* margin-bottom: 30px; */
     
   }
   

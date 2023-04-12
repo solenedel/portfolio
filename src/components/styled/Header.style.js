@@ -36,12 +36,16 @@ const StyledHeader = styled(Header)`
 
   div.title {
     margin: 70px 0 30px 0;
-    width: 90vw;
+    width: 80vw;
     display: flex;
     flex-direction: row;
     
-    & img#firstname {
+    & img.firstName {
       margin-right: 7vw;
+      max-width: 300px;
+    }
+    & img.lastName {
+      max-width: 442px;
     }
   }
  
@@ -148,15 +152,17 @@ margin-top: 40px;
 
 
  div.title {
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
   }
      
-img#firstname {
-  width: 60vw;
+img.firstName {
+  /* width:20vw; */
+  max-width: 50vw;
   margin-bottom: 30px;
 }
  
-img#lastname {
+img.lastName {
   width: 80vw;
 }
 
