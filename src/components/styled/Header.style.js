@@ -51,7 +51,7 @@ const StyledHeader = styled(Header)`
     font-size: 27px;
     font-weight: 200;
     color: white;
-    opacity: 0.8;
+   
   }
 
   .skills, .tools {

@@ -11,16 +11,16 @@ const Header = ({className}) => {
         </div>
 
         {/* <img id="name" src="https://see.fontimg.com/api/renderfont4/wvM6/eyJyIjoiZnMiLCJoIjoxNDgsInciOjIwMDAsImZzIjo3NCwiZmdjIjoiI0ZFRkFGQSIsImJnYyI6IiNCMDkzOTMiLCJ0IjoxfQ/U29sZW5lIERlbHVtZWF1/derrida.png" alt="Transparent fonts"/> */}
-        <h3><span className="emoji">👾</span> Software developer</h3>
-        <h3><span className="pin-icon">📍</span> Vancouver</h3>
-        <h3>France <span className="plane">✈️</span> Japan <span className="plane">✈️</span> China <span className="plane">✈️</span> Singapore <span className="plane">✈️</span> Canada</h3>
-      </span>
+        <h3> ✦ software developer ✦ amateur artist ✦ </h3>
+        
         
 
         <div className="skills">
           <h2>About me</h2>
           <p>Developer with a sharp eye for visuals. I have one year of professional experience in full-stack web development. I started coding in 2021, during my last term of university.  </p>
           <p>I was born in Paris in 1998. My family then moved to Asia, where we lived for 18 years. In 2016 I moved to Vancouver, Canada for my university studies.  </p>
+          <p>Art has been my hobby for over 2 decades. Lately, I've started getting into pixel art – follow my instagram!   </p>
+
         </div>
 {/* 
         <div className="tools">
@@ -32,6 +32,7 @@ const Header = ({className}) => {
           <img src="https://img.icons8.com/ios-filled/150/000000/postgreesql.png" alt="psql"/>
           <i className="fab fa-git-square" />
         </div> */}
+        </span>
     </header>
    );
 }
