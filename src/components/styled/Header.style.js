@@ -29,7 +29,7 @@ const StyledHeader = styled(Header)`
 
   p {
     color: white;
-    opacity: 0.8;
+    opacity: 0.9;
     font-size: 24px;
    
   }
@@ -69,11 +69,11 @@ const StyledHeader = styled(Header)`
   }
 
   h3 {
-    font-size: 27px;
+    font-size: 30px;
     font-weight: 200;
     color: white;
    margin-bottom:80px;
-    background: rgba(0,0,0,0.6);
+    /* background: rgba(0,0,0,0.6); */
     padding: 10px 0 10px 40px;
    width: 100vw;
   }

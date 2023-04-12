@@ -50,6 +50,7 @@ const StyledTools = styled(Tools)`
     opacity: 0.9;
     margin-bottom: 60px;
     color: white;
+    line-height: 3rem;
   }
 
   .projects {
@@ -105,6 +106,9 @@ const StyledTools = styled(Tools)`
     .projects {
        max-width: 80vw;
     }
+     div.myTools, p { 
+      font-size: 22px;
+     }
    }
 
 
