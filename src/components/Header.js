@@ -11,16 +11,16 @@ const Header = ({className}) => {
         </div>
 
         {/* <img id="name" src="https://see.fontimg.com/api/renderfont4/wvM6/eyJyIjoiZnMiLCJoIjoxNDgsInciOjIwMDAsImZzIjo3NCwiZmdjIjoiI0ZFRkFGQSIsImJnYyI6IiNCMDkzOTMiLCJ0IjoxfQ/U29sZW5lIERlbHVtZWF1/derrida.png" alt="Transparent fonts"/> */}
-        <h3><span className="emoji">👾</span> full stack developer</h3>
-        <h3><span className="pin-icon">📍</span> Greater Vancouver, BC</h3>
+        <h3><span className="emoji">👾</span> Software developer</h3>
+        <h3><span className="pin-icon">📍</span> Vancouver</h3>
         <h3>France <span className="plane">✈️</span> Japan <span className="plane">✈️</span> China <span className="plane">✈️</span> Singapore <span className="plane">✈️</span> Canada</h3>
       </span>
         
 
         <div className="skills">
           <h2>About me</h2>
-          <p>I'm a full-stack developer with a keen sense of visual design. I started coding during my last term of university. In October 2021, I graduated from the full stack web development bootcamp at Lighthouse Labs.</p>
-          <p>I come from France, and spent 18 years in Asia before moving to Canada. Coding is my newest hobby, but in my spare time I also like drawing and running.</p>
+          <p>Developer with a sharp eye for visuals. I have one year of professional experience in full-stack web development. I started coding in 2021, during my last term of university.  </p>
+          <p>I was born in Paris in 1998. My family then moved to Asia, where we lived for 18 years. In 2016 I moved to Vancouver, Canada for my university studies.  </p>
         </div>
 
         <div className="tools">
