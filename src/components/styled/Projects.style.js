@@ -4,18 +4,23 @@ import Projects from "../Projects";
 const StyledProjects = styled(Projects)`
   display: flex;
   flex-direction: column;
-  align-items: center;
-  align-self: center;
-  color:  #ffffff98;
+  /* align-items: center; */
+   /* align-self: center;  */
   width: 100%;
   /* background: black; */
+  margin-left: 5%;
   margin-top: 5%;
 
     img.projectsTitle {
-    margin: 30px 0 0 0;
+    margin: 30px 0 30px 0;
     width:200px;
+
   }
 
+  a.titleBox {
+    /* background: black; */
+    
+  }
   
   h2 {
     margin: 50px 0 30px 0;
@@ -39,7 +44,7 @@ const StyledProjects = styled(Projects)`
   .projects {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    /* justify-content: center; */
     overflow-y: show;
     width: 80%;
     max-width: 800px;
@@ -55,7 +60,6 @@ const StyledProjects = styled(Projects)`
     img.project {
       border-radius: 10px;
       box-shadow: 5px 5px 5px rgba(0,0,0,0.6);
-
       max-width: 100%;
 
       &:hover {

@@ -5,10 +5,10 @@ const StyledFooter = styled(Footer)`
 
   width: 85%;
   align-self: center;
-  padding-top: 20px;
+  padding-top: 80px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
 
   h2 {
     font-family: 'Share Tech Mono', monospace;
@@ -17,6 +17,10 @@ const StyledFooter = styled(Footer)`
     color: white;
   }
 
+  img.contactTitle {
+    width: 300px; 
+
+  }
   .contact {
     display: flex;
     align-items: baseline;
