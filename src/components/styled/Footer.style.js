@@ -3,9 +3,10 @@ import Footer from "../Footer";
 
 const StyledFooter = styled(Footer)`
 
-  width: 85%;
-  align-self: center;
+  width: 100%;
+  /* align-self: center; */
   padding-top: 80px;
+
   display: flex;
   flex-direction: column;
   /* align-items: center; */
@@ -14,7 +15,7 @@ const StyledFooter = styled(Footer)`
     display: flex;
     flex-direction: row;
     width: 100%;
- 
+    padding-left: 5%;
     align-items: center;
     justify-content: start;
   }
@@ -93,20 +94,24 @@ const StyledFooter = styled(Footer)`
       div.flexBox {
           flex-direction: column;
           width: 100%;
-          /* align-items: baseline;
-          justify-content: center; */
+        
+        padding-left: 0;
+          align-items: center;
+          /* justify-content: center; */
 
 
           div.contactIcons {
             display: flex;
             width: 80vw;
             justify-content: space-around;
+            align-items: center;
             
           }
           div.contactIcons a {
             font-size: 40px;
              margin: 20px 0 30px 0;
              width: 100vw;
+             
              /* background: black; */
 
           }
