@@ -9,7 +9,7 @@ const StyledHeader = styled(Header)`
   align-items: center;
 
   span.header {
-    background: black;
+    /* background: black; */
     width: 100vw;
     display: flex;
     flex-direction: column;

@@ -8,7 +8,7 @@ const StyledProjects = styled(Projects)`
   align-self: center;
   color:  #ffffff98;
   width: 100%;
-  background: black;
+  /* background: black; */
   margin-top: 5%;
 
   
