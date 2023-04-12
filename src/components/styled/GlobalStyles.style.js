@@ -30,4 +30,8 @@ background-size: cover;
     flex-direction: column;
   }
 
+  #blackBg {
+    background: rgba(0,0,0,0.6);
+  }
+
 `;

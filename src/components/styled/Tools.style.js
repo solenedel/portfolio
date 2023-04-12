@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import Projects from "../Projects";
+import Tools from "../Tools";
 
-const StyledProjects = styled(Projects)`
+const StyledTools = styled(Tools)`
   display: flex;
   flex-direction: column;
   /* align-items: center; */
@@ -109,5 +109,4 @@ const StyledProjects = styled(Projects)`
 
 
 `;
-
-export default StyledProjects;
+export default StyledTools;

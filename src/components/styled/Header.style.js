@@ -80,6 +80,10 @@ const StyledHeader = styled(Header)`
     background: rgba(0,0,0,0.6);
   }
 
+  a.igLink {
+    color: white;
+  }
+
  img.photo {
 border-radius: 10px;
 max-width: 300px;
