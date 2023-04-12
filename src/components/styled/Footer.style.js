@@ -10,6 +10,29 @@ const StyledFooter = styled(Footer)`
   flex-direction: column;
   /* align-items: center; */
 
+  div.flexBox {
+    display: flex;
+    width: 100%;
+ 
+    align-items: center;
+    justify-content: start;
+  }
+  div.contactIcons {
+    margin: 30px 0 30px 100px;
+   
+
+    a {
+      color:white;
+      font-size: 60px;
+      text-decoration: none;
+      margin-right: 50px;
+
+      &:hover {
+        color: #ffbf80;
+      }
+    }
+  }
+
   h2 {
     font-family: 'Share Tech Mono', monospace;
     font-size: 35px;
