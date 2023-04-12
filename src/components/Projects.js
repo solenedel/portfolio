@@ -1,7 +1,7 @@
 import React from "react";
-import pintura from "../images/pintura.png";
-import greengrocer from "../images/greengrocer.png";
-import todaylist from "../images/todaylist.png";
+// import pintura from "../images/pintura.png";
+// import greengrocer from "../images/greengrocer.png";
+// import todaylist from "../images/todaylist.png";
 import uncrypt from "../images/uncrypt.png";
 
 

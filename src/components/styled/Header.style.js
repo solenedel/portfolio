@@ -9,13 +9,19 @@ const StyledHeader = styled(Header)`
   align-items: center;
 
   span.header {
-    /* background: black; */
     width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-bottom: 50px;
+  }
+
+  p {
+    color: white;
+    opacity: 0.8;
+    font-size: 24px;
+   
   }
 
   div.title {
@@ -56,10 +62,30 @@ const StyledHeader = styled(Header)`
 
   .skills, .tools {
     margin: 50px 0 0 0;
-    width: 85%;
+    width: 100%;
+    padding: 0 5% 0 5%;
     font-size: 24px;
     line-height: 40px;
     align-self: center;
+    background: rgba(0,0,0,0.6);
+  }
+
+ img.photo {
+  width: 300px;
+border-radius: 10px;
+width: 50%;
+max-width: 400px;
+margin-bottom: 40px;
+margin-top: 40px;
+  }
+
+  span.flexBox {
+    display: flex;
+    width: 100%;
+  }
+    p.flexText {
+    width: 70%;
+    padding-left: 10%;
   }
 
   span.plane {
@@ -132,6 +158,7 @@ img#lastname {
 
     p {
       font-size: 20px;
+   
     }
 
     .tools {
