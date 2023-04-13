@@ -30,7 +30,7 @@ const StyledHeader = styled(Header)`
   p {
     color: white;
     opacity: 0.9;
-    font-size: 24px;
+    font-size: 25px;
    
   }
 
@@ -71,7 +71,7 @@ const StyledHeader = styled(Header)`
   h3 {
     font-size: 30px;
     font-weight: 200;
-    color: white;
+   color: #ffbf80;
    margin-bottom:80px;
     /* background: rgba(0,0,0,0.6); */
     padding: 10px 0 10px 40px;
