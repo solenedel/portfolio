@@ -28,9 +28,9 @@ const Header = ({className}) => {
           
           <span className="flexBox"><img className="photo" src={dp} alt="me" />
             <span className="flexText">
-              <p>Developer with a sharp eye for aesthetics, bilingual (English – French). I have one year of professional experience in full-stack web development.  </p>
-              <p>I was born in Paris in 1998. My family then moved to Asia, where we lived for 18 years. In 2016 I moved to Vancouver for university (UBC class of 2021, B.Sc. Environmental Science).  </p>
-            <p>Art has always been my hobby. Lately, I've started getting into pixel art. Follow my art instagram <a className="igLink" target="_blank" href="https://instagram.com/mezanote.png" rel="noreferrer">here!</a>    </p></span>
+              <p>Developer with an eye for aesthetics. I have one year of professional experience in full-stack web development.  </p>
+              <p>I was born in Paris in 1998, moved to Asia in 2000, and to Canada in 2016. </p>
+            <p>Art has always been my hobby. Lately, I've been getting into pixel art. Follow my art instagram <a className="igLink" target="_blank" href="https://instagram.com/mezanote.png" rel="noreferrer">here!</a>    </p></span>
             
           <span></span></span>
          
