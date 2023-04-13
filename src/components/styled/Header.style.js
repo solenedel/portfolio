@@ -141,11 +141,6 @@ margin-top: 40px;
   @media screen and (max-width: 750px) {
 
 
-
-    h3 {
-      position: left;
-    }
-
     span.flexBox {
       flex-direction: column-reverse;
     }
@@ -166,6 +161,7 @@ margin-top: 40px;
   display: flex;
   flex-direction: column;
   width: 100vw;
+
   }
      
 img.firstName {
@@ -191,7 +187,7 @@ img.firstName {
     }
 
     div.title img {
-    margin-left: 30px;
+    /* margin-left: 30px; */
     width: 80vw;
   }
 
@@ -200,6 +196,7 @@ img.firstName {
       font-size: 22px;
       line-height: 50px;
       width: 70vw;
+      padding-left: 40px;
     }
 
     p {
@@ -229,7 +226,7 @@ img.firstName {
 
     h3 {
       width: 90vw;
-    
+      padding-left: 20px;
     }
 
      div.title img {
