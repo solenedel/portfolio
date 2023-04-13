@@ -35,16 +35,7 @@ const Header = ({className}) => {
           <span></span></span>
          
         </div>
-{/* 
-        <div className="tools">
-          <i className="fab fa-react" /> 
-          <i className="fab fa-js-square" />
-          <i className="fab fa-node" /> 
-          <i className="fab fa-html5" />  
-          <i className="fab fa-css3-alt" />
-          <img src="https://img.icons8.com/ios-filled/150/000000/postgreesql.png" alt="psql"/>
-          <i className="fab fa-git-square" />
-        </div> */}
+
         </span>
     </header>
    );

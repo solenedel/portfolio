@@ -17,7 +17,7 @@ const Projects = ({className}) => {
           
      
       </div>
-       
+       {/* More coming soon! */}
       </div>
    );
 }

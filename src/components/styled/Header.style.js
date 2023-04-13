@@ -151,7 +151,8 @@ margin-top: 40px;
   }
 
  img.photo{
-  position: center;
+  /* margin-left: 25%; */
+  align-self: center;
  }
 
 
