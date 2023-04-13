@@ -140,6 +140,12 @@ margin-top: 40px;
 
   @media screen and (max-width: 750px) {
 
+
+
+    h3 {
+      position: left;
+    }
+
     span.flexBox {
       flex-direction: column-reverse;
     }
@@ -180,7 +186,7 @@ img.firstName {
       font-size: 60px;
     }
 
-    h1, h2, h3 {
+    h1, h2 {
       margin-left: 30px;
     }
 
@@ -223,7 +229,7 @@ img.firstName {
 
     h3 {
       width: 90vw;
-      margin-left: 5vw;
+    
     }
 
      div.title img {
