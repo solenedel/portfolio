@@ -8,10 +8,15 @@ const Tools = ({className}) => {
   return ( 
     <div className={className}>
         <img className="projectsTitle" src="https://see.fontimg.com/api/renderfont4/wy99/eyJyIjoiZnMiLCJoIjoxMDAsInciOjIwMDAsImZzIjo1MCwiZmdjIjoiI0ZGRkZGRiIsImJnYyI6IiNGRkZERkQiLCJ0IjoxfQ/bXkgdG9vbHM/ferrum.png" alt="Final Fantasy fonts" />
-        <div className="myTools">
-          React JS ✦ Next.js ✦ Tailwind CSS ✦ Postgres ✦ SQL ✦ HTML ✦ CSS ✦ JavaScript (ES6) ✦ Git ✦ GitHub ✦ Squarespace ✦ Figma ✦ Aseprite 
+      <div className="myTools">
+        <h4>Languages & Frameworks</h4>
+        <span> React JS ✦ Next.js ✦ Tailwind CSS ✦ Postgres ✦ SQL ✦ HTML ✦ CSS ✦ JavaScript (ES6) ✦ Git </span>
+       
+        <h4 className="software">Software</h4>
+        <span> GitHub ✦ VScode ✦ Squarespace ✦ Figma ✦ Aseprite </span>
+          
         </div>
-        <p>I'm open to freelance web development and contracting opportunities. Feel free to reach out!</p>
+        <p>Feel free to reach out for freelancing and contracting opportunities!</p>
      
        
       </div>

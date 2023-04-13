@@ -17,6 +17,11 @@ const StyledTools = styled(Tools)`
 
   }
 
+   span {
+    margin: 0;
+
+  }
+
   div.myTools {
     color: white;
     font-size: 24px;
@@ -41,16 +46,26 @@ const StyledTools = styled(Tools)`
   }
 
   h4 {
-    font-size: 30px;
-    font-weight: 300;
+    font-size: 26px;
+    font-weight: 200;
+    color: #ffbf80;
+    margin-bottom: 0;
+
+    &.software {
+      margin-top: 50px;
+    }
   }
 
   p {
-    font-size: 24px;
-    opacity: 0.9;
+    font-size: 25px;
+    color: #ffbf80;
     margin-bottom: 60px;
-    color: white;
+ 
     line-height: 3rem;
+  }
+
+  span {
+    font-size: 22px;
   }
 
   .projects {
@@ -98,6 +113,15 @@ const StyledTools = styled(Tools)`
     a {
       max-width: 80%;
     }
+
+    h4 {
+      font-size: 24px;
+      margin-bottom: 0;
+    }
+
+    span {
+    font-size: 20px;
+  }
 
   }
 

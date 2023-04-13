@@ -11,6 +11,8 @@ const StyledFooter = styled(Footer)`
   flex-direction: column;
   /* align-items: center; */
 
+ 
+
   div.flexBox {
     display: flex;
     flex-direction: row;
