@@ -15,7 +15,7 @@ const Header = ({className}) => {
        <img className="lastName" src="https://see.fontimg.com/api/renderfont4/wy99/eyJyIjoiZnMiLCJoIjoxMDAsInciOjIwMDAsImZzIjo1MCwiZmdjIjoiI0ZGRkZGRiIsImJnYyI6IiNGRkZERkQiLCJ0IjoxfQ/ZGVsdW1lYXU/ferrum.png" alt="Final Fantasy fonts"/></div>
       
         {/* <img id="name" src="https://see.fontimg.com/api/renderfont4/wvM6/eyJyIjoiZnMiLCJoIjoxNDgsInciOjIwMDAsImZzIjo3NCwiZmdjIjoiI0ZFRkFGQSIsImJnYyI6IiNCMDkzOTMiLCJ0IjoxfQ/U29sZW5lIERlbHVtZWF1/derrida.png" alt="Transparent fonts"/> */}
-        <h3> ✦ software developer ✦ open to work opportunities ✦ </h3>
+        <h3> ✦ software developer ✦ open to work ✦ </h3>
         
         
       
@@ -29,7 +29,7 @@ const Header = ({className}) => {
           <span className="flexBox"><img className="photo" src={dp} alt="me" />
             <span className="flexText">
               <p>Developer with an eye for aesthetics. I have one year of professional experience in full-stack web development.  </p>
-              <p>I was born in Paris in 1998, moved to Asia in 2000, and to Canada in 2016. </p>
+              <p>I was born in Paris in 1998, moved to Asia in 2000, and then to Canada in 2016. </p>
             <p>Art has always been my hobby. Lately, I've been getting into pixel art. Follow my art instagram <a className="igLink" target="_blank" href="https://instagram.com/mezanote.png" rel="noreferrer">here!</a>    </p></span>
             
           <span></span></span>
