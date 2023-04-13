@@ -11,8 +11,8 @@ const Header = ({className}) => {
           <img  id="lastname" src="https://see.fontimg.com/api/renderfont4/wvM6/eyJyIjoiZnMiLCJoIjoxNDgsInciOjIwMDAsImZzIjo3NCwiZmdjIjoiI0ZFRkFGQSIsImJnYyI6IiNCMDkzOTMiLCJ0IjoxfQ/RGVsdW1lYXU/derrida.png" alt="lastname" />
         </div> */}
         <div className="title">
-          <a href="https://www.fontspace.com/category/final-fantasy" ><img className="firstName" src="https://see.fontimg.com/api/renderfont4/wy99/eyJyIjoiZnMiLCJoIjoxMDAsInciOjIwMDAsImZzIjo1MCwiZmdjIjoiI0ZGRkZGRiIsImJnYyI6IiNGRkZERkQiLCJ0IjoxfQ/c29sZW5l/ferrum.png" alt="Final Fantasy fonts" /></a>
-       <a href="https://www.fontspace.com/category/final-fantasy" ><img className="lastName" src="https://see.fontimg.com/api/renderfont4/wy99/eyJyIjoiZnMiLCJoIjoxMDAsInciOjIwMDAsImZzIjo1MCwiZmdjIjoiI0ZGRkZGRiIsImJnYyI6IiNGRkZERkQiLCJ0IjoxfQ/ZGVsdW1lYXU/ferrum.png" alt="Final Fantasy fonts"/></a></div>
+          <img className="firstName" src="https://see.fontimg.com/api/renderfont4/wy99/eyJyIjoiZnMiLCJoIjoxMDAsInciOjIwMDAsImZzIjo1MCwiZmdjIjoiI0ZGRkZGRiIsImJnYyI6IiNGRkZERkQiLCJ0IjoxfQ/c29sZW5l/ferrum.png" alt="Final Fantasy fonts" />
+       <img className="lastName" src="https://see.fontimg.com/api/renderfont4/wy99/eyJyIjoiZnMiLCJoIjoxMDAsInciOjIwMDAsImZzIjo1MCwiZmdjIjoiI0ZGRkZGRiIsImJnYyI6IiNGRkZERkQiLCJ0IjoxfQ/ZGVsdW1lYXU/ferrum.png" alt="Final Fantasy fonts"/></div>
       
         {/* <img id="name" src="https://see.fontimg.com/api/renderfont4/wvM6/eyJyIjoiZnMiLCJoIjoxNDgsInciOjIwMDAsImZzIjo3NCwiZmdjIjoiI0ZFRkFGQSIsImJnYyI6IiNCMDkzOTMiLCJ0IjoxfQ/U29sZW5lIERlbHVtZWF1/derrida.png" alt="Transparent fonts"/> */}
         <h3> ✦ software developer ✦ open to work opportunities ✦ </h3>
@@ -22,7 +22,7 @@ const Header = ({className}) => {
         <div className="skills">
         
           {/* <h2>About me</h2> */}
-          <a href="https://www.fontspace.com/category/final-fantasy"><img className="aboutMe" src="https://see.fontimg.com/api/renderfont4/wy99/eyJyIjoiZnMiLCJoIjoxMTgsInciOjIwMDAsImZzIjo1OSwiZmdjIjoiI0ZGRkZGRiIsImJnYyI6IiNGRkZERkQiLCJ0IjoxfQ/YWJvdXQgbWU/ferrum.png" alt="Final Fantasy fonts"/></a>
+          <img className="aboutMe" src="https://see.fontimg.com/api/renderfont4/wy99/eyJyIjoiZnMiLCJoIjoxMTgsInciOjIwMDAsImZzIjo1OSwiZmdjIjoiI0ZGRkZGRiIsImJnYyI6IiNGRkZERkQiLCJ0IjoxfQ/YWJvdXQgbWU/ferrum.png" alt="Final Fantasy fonts"/>
          
           
           
