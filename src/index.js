@@ -5,7 +5,7 @@ import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <head>
+   
         {/* <meta
             property="og:title"
             content={'UnCrypt – Navigate the Crypto Market'}
@@ -19,14 +19,8 @@ ReactDOM.render(
             }
             key="ogdesc"
           /> */}
-          <meta
-            property="og:image"
-            content={'https://github.io/solenedel/portfolio/images/OG_image.png'}
-            key="ogimage"
-          />
-          <meta property="og:image:width" content="200" />
-        <meta property="og:image:height" content="100" />
-      </head>
+          
+    
     <App />
   </React.StrictMode>,
   document.getElementById('root')
