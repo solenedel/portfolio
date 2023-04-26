@@ -21,10 +21,10 @@ const Tools = ({className}) => {
         <span> GitHub ✦ VScode ✦ Squarespace ✦ Figma ✦ Aseprite </span>
           
         </div>
-      <p>Feel free to reach out for freelancing and contracting opportunities!</p>
+      {/* <p>Feel free to reach out for freelancing and contracting opportunities!</p> */}
       
-      <h4>ART GALLERY</h4>
-      <div>
+      <h5>Art Gallery</h5>
+      <div className="art-gallery">
         <img className="art-sample" src={sample1} alt="art sample 1" height="200" />
         <img className="art-sample" src={sample2} alt="art sample 2" height="200" />
         <img className="art-sample" src={sample3} alt="art sample 3" height="200" />

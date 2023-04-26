@@ -39,6 +39,28 @@ const StyledTools = styled(Tools)`
 
   .art-sample {
     border-radius: 10px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    align-self: center;
+    justify-self: center;
+    position: center;
+  }
+
+  div.art-gallery {
+    width: 100%;
+    display: flex;
+    padding-bottom: 100px;
+    flex-wrap: wrap;
+
+    /* background: white; */
+    /* justify-items: space-between;
+    align-items: space-around; */
+  }
+
+  h5 {
+    margin-top: 40px;
+    color: #ffbf80;
+    font-size: 30px;
   }
   
   h2 {
