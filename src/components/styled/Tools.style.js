@@ -36,6 +36,10 @@ const StyledTools = styled(Tools)`
     /* background: black; */
     
   }
+
+  .art-sample {
+    border-radius: 10px;
+  }
   
   h2 {
     margin: 50px 0 30px 0;

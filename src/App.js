@@ -10,9 +10,7 @@ function App() {
     <div className="App">
       
       <GlobalStyles />
-    
         <StyledHeader />
-      
       <StyledProjects />
         <div id="blackBg">
       <StyledTools />

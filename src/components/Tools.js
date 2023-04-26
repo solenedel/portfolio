@@ -2,6 +2,11 @@ import React from "react";
 import uncrypt from "../images/uncrypt.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact, faSquareJs, faSquarespace } from '@fortawesome/free-brands-svg-icons';
+import sample1 from "../images/art/sample1.png"
+import sample2 from "../images/art/sample2.png"
+import sample3 from "../images/art/sample3.png"
+import sample4 from "../images/art/sample4.png"
+import sample5 from "../images/art/sample5.png"
 
 
 const Tools = ({className}) => {
@@ -16,7 +21,16 @@ const Tools = ({className}) => {
         <span> GitHub ✦ VScode ✦ Squarespace ✦ Figma ✦ Aseprite </span>
           
         </div>
-        <p>Feel free to reach out for freelancing and contracting opportunities!</p>
+      <p>Feel free to reach out for freelancing and contracting opportunities!</p>
+      
+      <h4>ART GALLERY</h4>
+      <div>
+        <img className="art-sample" src={sample1} alt="art sample 1" height="200" />
+        <img className="art-sample" src={sample2} alt="art sample 2" height="200" />
+        <img className="art-sample" src={sample3} alt="art sample 3" height="200" />
+        <img className="art-sample" src={sample4} alt="art sample 4" height="200" />
+         <img className="art-sample" src={sample5} alt="art sample 5" height="200" />
+      </div>
      
        
       </div>
