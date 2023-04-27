@@ -37,24 +37,18 @@ const StyledTools = styled(Tools)`
     
   }
 
-  .art-sample {
-    border-radius: 10px;
-    margin-right: 30px;
-    margin-bottom: 40px;
-    align-self: center;
-    justify-self: center;
-    position: center;
+   .art-sample {
+   border-radius: 10px;
+   margin-bottom: 90px;
+  margin-right: 90px;
+
   }
 
   div.art-gallery {
     width: 100%;
-    display: flex;
-    padding-bottom: 100px;
-    flex-wrap: wrap;
-
-    /* background: white; */
-    /* justify-items: space-between;
-    align-items: space-around; */
+    flex-direction: row;
+    /* align-items: center;
+    justify-items: center; */
   }
 
   h5 {
@@ -149,6 +143,17 @@ const StyledTools = styled(Tools)`
     font-size: 20px;
   }
 
+   .art-sample {
+   border-radius: 10px;
+   margin-bottom: 60px;
+  /* margin-right: 40px; */
+  }
+
+  div.art-gallery {
+   flex-wrap: wrap;
+   /* background: white; */
+  }
+
   }
 
    @media screen and (max-width: 430px) {
@@ -159,6 +164,22 @@ const StyledTools = styled(Tools)`
      div.myTools, p { 
       font-size: 22px;
      }
+
+     .art-sample {
+   border-radius: 10px;
+   margin-bottom: 60px;
+    margin-right: 0px;
+
+  }
+
+  div.art-gallery {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+  }
+
    }
 
 
