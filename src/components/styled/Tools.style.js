@@ -22,6 +22,12 @@ const StyledTools = styled(Tools)`
 
   }
 
+  .galleryTitle {
+    width: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
   div.myTools {
     color: white;
     font-size: 24px;
