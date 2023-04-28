@@ -50,6 +50,7 @@ const StyledTools = styled(Tools)`
 
   }
 
+  
   div.art-gallery {
     width: 100%;
     flex-direction: row;
