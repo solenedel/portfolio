@@ -31,7 +31,7 @@ const Header = ({className}) => {
             <span className="flexText">
               <p>Developer with an eye for aesthetics. I have one year of professional experience in full-stack web development.  </p>
               <p>I was born in Paris in 1998, moved to Asia in 2000, and then to Canada in 2016. </p>
-            <p>Art has always been my hobby. Lately, I've been getting into pixel art. Follow my art instagram <a className="igLink" target="_blank" href="https://instagram.com/mezanote.png" rel="noreferrer">here!</a>    </p></span>
+            <p>Art has always been my hobby. Lately, I've been getting into pixel art. Check out my portfolio <a className="igLink" target="_blank" href="https://www.artstation.com/mezanote" rel="noreferrer">here!</a>    </p></span>
             
           <span></span></span>
          
