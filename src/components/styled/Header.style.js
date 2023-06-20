@@ -1,5 +1,7 @@
 import styled from 'styled-components'
 import Header from '../Header'
+import '@fontsource-variable/tourney';
+
 
 const StyledHeader = styled(Header)`
 
@@ -39,6 +41,7 @@ const StyledHeader = styled(Header)`
     width: 100vw;
     display: flex;
     flex-direction: column;
+     font-family: 'Tourney Variable', sans-serif;
     
     & img.firstName {
       margin-right: 7vw;
@@ -55,9 +58,9 @@ const StyledHeader = styled(Header)`
     height: fit-content;
     padding: 0;
     display: inline-block;
-    font-weight: 700;
+    font-weight: 200;
     font-size: 70px;
-    font-family: 'Share Tech Mono', monospace;
+    font-family: 'Tourney Variable', sans-serif;
     color: white;
   }
 
@@ -161,7 +164,7 @@ margin-top: 40px;
   display: flex;
   flex-direction: column;
   width: 100vw;
-
+  font-family: 'Tourney Variable', sans-serif;
   }
      
 img.firstName {

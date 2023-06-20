@@ -1,4 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
+import '@fontsource/mononoki';
+// Supports weights 100-900
 
 
 export const GlobalStyles = createGlobalStyle`
@@ -6,7 +8,7 @@ export const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: 'Mononoki', sans-serif;
     /* max-width: 100%; */
     overflow-x: hidden;
   }
@@ -21,7 +23,7 @@ background-size: cover;
 
 
   p, h1, h2, h3, h4, h5 {
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: 'Mononoki', sans-serif;
     margin: 25px 0 25px 0;
   }
 
