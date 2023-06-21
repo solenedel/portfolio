@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 import Header from '../Header'
 import '@fontsource-variable/tourney';
+import '@fontsource/limelight';
+import '@fontsource/jacques-francois-shadow';
 
 
 const StyledHeader = styled(Header)`
@@ -18,6 +20,12 @@ const StyledHeader = styled(Header)`
     img.aboutMe {
     margin: 30px 0 0 0;
     width:200px;
+   
+  }
+
+  img {
+     filter: grayscale(20%);
+    
   }
 
   span.header {
@@ -32,7 +40,8 @@ const StyledHeader = styled(Header)`
   p {
     color: white;
     opacity: 0.9;
-    font-size: 25px;
+    font-size: 27px;
+    font-weight: 100;
    
   }
 
@@ -41,7 +50,7 @@ const StyledHeader = styled(Header)`
     width: 100vw;
     display: flex;
     flex-direction: column;
-     font-family: 'Tourney Variable', sans-serif;
+     font-family: 'Jacques Francois Shadow', sans-serif;
     
     & img.firstName {
       margin-right: 7vw;
@@ -58,17 +67,20 @@ const StyledHeader = styled(Header)`
     height: fit-content;
     padding: 0;
     display: inline-block;
-    font-weight: 200;
-    font-size: 70px;
-    font-family: 'Tourney Variable', sans-serif;
-    color: white;
+    font-weight: 100;
+    font-size: 60px;
+    overflow: hidden;
+ font-family: 'Jacques Francois Shadow', sans-serif;
+
+    color: #7088dd;
   }
 
   h2 {
     position: center;
     text-align: center;
-    font-family: 'Share Tech Mono', monospace;
+  font-family: 'Jacques Francois Shadow', sans-serif;
     color: white;
+    font-size: 40px;
   }
 
   h3 {
@@ -88,7 +100,7 @@ const StyledHeader = styled(Header)`
     font-size: 24px;
     line-height: 40px;
     align-self: center;
-    background: rgba(0,0,0,0.6);
+    /* background: rgba(0,0,0,0.6); */
   }
 
   a.igLink {
@@ -96,7 +108,7 @@ const StyledHeader = styled(Header)`
   }
 
  img.photo {
-border-radius: 10px;
+border-radius: 5px;
 max-width: 300px;
 min-width: 300px;
 margin-bottom: 40px;
@@ -164,7 +176,7 @@ margin-top: 40px;
   display: flex;
   flex-direction: column;
   width: 100vw;
-  font-family: 'Tourney Variable', sans-serif;
+ 
   }
      
 img.firstName {

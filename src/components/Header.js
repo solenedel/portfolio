@@ -1,5 +1,5 @@
 import React from "react";
-import dp from "../images/dp.jpg";
+import dp from "../images/photo.png";
 
 
 const Header = ({className}) => {
@@ -21,14 +21,13 @@ const Header = ({className}) => {
       
         <div className="skills">
         
-          {/* <h2>About me</h2> */}
-          <img className="aboutMe" src="https://see.fontimg.com/api/renderfont4/wy99/eyJyIjoiZnMiLCJoIjoxMTgsInciOjIwMDAsImZzIjo1OSwiZmdjIjoiI0ZGRkZGRiIsImJnYyI6IiNGRkZERkQiLCJ0IjoxfQ/YWJvdXQgbWU/ferrum.png" alt="Final Fantasy fonts"/>
+          <h2>About me</h2>
          
           
           
           <span className="flexBox"><img className="photo" src={dp} alt="me" />
             <span className="flexText">
-              <p>Developer with an eye for aesthetics. I have one year of professional experience in full-stack web development.  </p>
+              <p>Developer with a sharp eye for design. I have one year of professional experience in full-stack web development.  </p>
               <p>I was born in Paris in 1998, moved to Asia in 2000, and then to Canada in 2016. </p>
             <p>Art has always been my hobby. Lately, I've been getting into pixel art. Check out my portfolio <a className="igLink" target="_blank" href="https://www.artstation.com/mezanote" rel="noreferrer">here!</a>    </p></span>
             
