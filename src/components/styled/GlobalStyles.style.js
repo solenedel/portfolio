@@ -3,6 +3,8 @@ import '@fontsource/mononoki';
 // Supports weights 100-900
 import bgStars from "../../images/stars2.png";
 import bgImg from "../../images/bg-img.png";
+// Supports weights 100-900
+import '@fontsource-variable/grenze-gotisch';
 
 
 export const GlobalStyles = createGlobalStyle`
@@ -26,7 +28,7 @@ background-size: cover;
 
  h1, h2, h3, h4, h5 {
     
-    font-family: 'Mononoki', sans-serif;
+   font-family: 'Grenze Gotisch Variable', sans-serif;
     margin: 25px 0 25px 0;
   }
 

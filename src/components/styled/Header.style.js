@@ -50,7 +50,7 @@ const StyledHeader = styled(Header)`
     width: 100vw;
     display: flex;
     flex-direction: column;
-     font-family: 'Jacques Francois Shadow', sans-serif;
+   font-family: 'Grenze Gotisch Variable', sans-serif;
     
     & img.firstName {
       margin-right: 7vw;
@@ -70,7 +70,7 @@ const StyledHeader = styled(Header)`
     font-weight: 100;
     font-size: 60px;
     overflow: hidden;
- font-family: 'Jacques Francois Shadow', sans-serif;
+font-family: 'Grenze Gotisch Variable', sans-serif;
 
     color: #7088dd;
   }
@@ -78,7 +78,7 @@ const StyledHeader = styled(Header)`
   h2 {
     position: center;
     text-align: center;
-  font-family: 'Jacques Francois Shadow', sans-serif;
+  font-family: 'Grenze Gotisch Variable', sans-serif;
     color: white;
     font-size: 40px;
   }
