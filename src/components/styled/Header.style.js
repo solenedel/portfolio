@@ -67,12 +67,12 @@ const StyledHeader = styled(Header)`
     height: fit-content;
     padding: 0;
     display: inline-block;
-    font-weight: 100;
-    font-size: 60px;
+    font-weight: 400;
+    font-size: 90px;
     overflow: hidden;
 font-family: 'Grenze Gotisch Variable', sans-serif;
 
-    color: #7088dd;
+    color: #d9ebfb;
   }
 
   h2 {
@@ -108,11 +108,12 @@ font-family: 'Grenze Gotisch Variable', sans-serif;
   }
 
  img.photo {
-border-radius: 5px;
+border-radius: 200px;
 max-width: 300px;
 min-width: 300px;
 margin-bottom: 40px;
 margin-top: 40px;
+filter: grayscale(100%);
   }
 
   span.flexBox {

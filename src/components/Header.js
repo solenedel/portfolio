@@ -1,5 +1,5 @@
 import React from "react";
-import dp from "../images/photo.png";
+import dp from "../images/me.png";
 
 
 const Header = ({className}) => {
@@ -15,7 +15,7 @@ const Header = ({className}) => {
         </div>
       
         {/* <img id="name" src="https://see.fontimg.com/api/renderfont4/wvM6/eyJyIjoiZnMiLCJoIjoxNDgsInciOjIwMDAsImZzIjo3NCwiZmdjIjoiI0ZFRkFGQSIsImJnYyI6IiNCMDkzOTMiLCJ0IjoxfQ/U29sZW5lIERlbHVtZWF1/derrida.png" alt="Transparent fonts"/> */}
-        <h3> ✦ software developer ✦ open to work ✦ </h3>
+        <h3> ✦ software developer ✦  </h3>
         
         
       

@@ -1,7 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 import '@fontsource/mononoki';
 // Supports weights 100-900
-import bgStars from "../../images/stars2.png";
+import bgStars from "../../images/new_hero.png";
 import bgImg from "../../images/bg-img.png";
 // Supports weights 100-900
 import '@fontsource-variable/grenze-gotisch';
