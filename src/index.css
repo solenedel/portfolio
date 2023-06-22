@@ -1,4 +1,10 @@
 /* ./src/index.css */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
+* {
+  body {
+    /* background-image: url('../src/images/new_hero.png'); */
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+  }
+}

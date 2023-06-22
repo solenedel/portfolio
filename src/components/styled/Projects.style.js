@@ -1,115 +1,115 @@
-import styled from "styled-components";
-import Projects from "../Projects";
-import '@fontsource/jacques-francois-shadow';
+// import styled from "styled-components";
+// import Projects from "../Projects";
+// import '@fontsource/jacques-francois-shadow';
 
-const StyledProjects = styled(Projects)`
-  display: flex;
-  flex-direction: column;
-  /* align-items: center; */
-   /* align-self: center;  */
-  width: 100%;
-  /* background: black; */
-  padding-left: 5%;
-  margin-top: 5%;
+// const StyledProjects = styled(Projects)`
+//   display: flex;
+//   flex-direction: column;
+//   /* align-items: center; */
+//    /* align-self: center;  */
+//   width: 100%;
+//   /* background: black; */
+//   padding-left: 5%;
+//   margin-top: 5%;
 
-    img.projectsTitle {
-    margin: 30px 0 50px 0;
-    width:200px;
+//     img.projectsTitle {
+//     margin: 30px 0 50px 0;
+//     width:200px;
 
-  }
+//   }
 
-  div.myTools {
-    color: white;
-    font-size: 24px;
-    width: 80%;
-    margin-top: 10px;
-    /* margin-left: 1%; */
-   line-height: 3rem;
-   margin-bottom: 40px;
-  }
+//   div.myTools {
+//     color: white;
+//     font-size: 24px;
+//     width: 80%;
+//     margin-top: 10px;
+//     /* margin-left: 1%; */
+//    line-height: 3rem;
+//    margin-bottom: 40px;
+//   }
 
-  a.titleBox {
-    /* background: black; */
-    /* margin-bottom: 30px; */
+//   a.titleBox {
+//     /* background: black; */
+//     /* margin-bottom: 30px; */
     
-  }
+//   }
   
-  h2 {
-    margin: 50px 0 30px 0;
-    font-size: 40px;
-   letter-spacing: 3px;
-    font-weight: 700;
-    color: white;
-  }
+//   h2 {
+//     margin: 50px 0 30px 0;
+//     font-size: 40px;
+//    letter-spacing: 3px;
+//     font-weight: 700;
+//     color: white;
+//   }
 
-  h4 {
-    font-size: 30px;
-    font-weight: 300;
-  }
+//   h4 {
+//     font-size: 30px;
+//     font-weight: 300;
+//   }
 
-  p {
-    font-size: 24px;
-    opacity: 0.9;
-    margin-bottom: 60px;
-    color: white;
-  }
+//   p {
+//     font-size: 24px;
+//     opacity: 0.9;
+//     margin-bottom: 60px;
+//     color: white;
+//   }
 
-  .projects {
-    display: flex;
-    flex-wrap: wrap;
-    /* justify-content: center; */
-    overflow-y: show;
-    width: 80%;
-    max-width: 800px;
-    margin-bottom: 40px;
-  }
+//   .projects {
+//     display: flex;
+//     flex-wrap: wrap;
+//     /* justify-content: center; */
+//     overflow-y: show;
+//     width: 80%;
+//     max-width: 800px;
+//     margin-bottom: 40px;
+//   }
 
-  a {
-    padding: 5px 15px 20px 15px;
-    max-width: 50%;
-  }
+//   a {
+//     padding: 5px 15px 20px 15px;
+//     max-width: 50%;
+//   }
 
 
-    img.project {
-      border-radius: 10px;
-      box-shadow: 5px 5px 5px rgba(0,0,0,0.6);
-      max-width: 100%;
+//     img.project {
+//       border-radius: 10px;
+//       box-shadow: 5px 5px 5px rgba(0,0,0,0.6);
+//       max-width: 100%;
 
-      &:hover {
-        transform: translateY(5px);
-        cursor: pointer;
-        /* box-shadow: 5px 5px 5px white; */
-      }
-    }
+//       &:hover {
+//         transform: translateY(5px);
+//         cursor: pointer;
+//         /* box-shadow: 5px 5px 5px white; */
+//       }
+//     }
     
-  @media screen and (max-width: 750px) {
-    width: 100%;
+//   @media screen and (max-width: 750px) {
+//     width: 100%;
 
-   .projects {
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     max-width: 60vw;
+//    .projects {
+//      flex-direction: column;
+//      justify-content: center;
+//      align-items: center;
+//      max-width: 60vw;
   
-     & img {
-       margin-bottom: 25px;
-     }
-   }
+//      & img {
+//        margin-bottom: 25px;
+//      }
+//    }
 
-    a {
-      max-width: 80%;
-    }
+//     a {
+//       max-width: 80%;
+//     }
 
-  }
+//   }
 
-   @media screen and (max-width: 430px) {
+//    @media screen and (max-width: 430px) {
 
-    .projects {
-       max-width: 80vw;
-    }
-   }
+//     .projects {
+//        max-width: 80vw;
+//     }
+//    }
 
 
-`;
+// `;
 
-export default StyledProjects;
+// export default StyledProjects;
