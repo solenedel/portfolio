@@ -9,8 +9,7 @@ const Projects = ({className}) => {
     <div className={className}>
       <div>
         
-          <img className="projectsTitle" src="https://see.fontimg.com/api/renderfont4/wy99/eyJyIjoiZnMiLCJoIjoxMDAsInciOjIwMDAsImZzIjo1MCwiZmdjIjoiI0ZGRkZGRiIsImJnYyI6IiNGRkZERkQiLCJ0IjoxfQ/cHJvamVjdHM/ferrum.png" alt="Final Fantasy fonts" />
-       
+<h2>Projects</h2>       
         <div className="projects">
             <a href="http://uncrypt.app" target="_blank" rel="noreferrer" className="project"><img className="project" src={uncrypt} alt="uncrypt" /></a>   
         </div>

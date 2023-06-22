@@ -38,8 +38,9 @@ const StyledFooter = styled(Footer)`
   }
 
   h2 {
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 35px;
+    /* font-family: 'Share Tech Mono', monospace; */
+    font-size: 40px;
+    letter-spacing: 3px;
     margin-bottom: 40px;
     color: white;
   }

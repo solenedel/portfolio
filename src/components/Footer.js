@@ -10,7 +10,7 @@ const Footer = ({className}) => {
   return ( 
     <footer className={className}>
       <div className="flexBox">
-        <img className="contactTitle" src="https://see.fontimg.com/api/renderfont4/wy99/eyJyIjoiZnMiLCJoIjoxMDAsInciOjIwMDAsImZzIjo1MCwiZmdjIjoiI0ZGRkZGRiIsImJnYyI6IiNGRkZERkQiLCJ0IjoxfQ/Y29udGFjdCBtZQ/ferrum.png" alt="Final Fantasy fonts" />
+     <h2>Contact me</h2>
         <div className="contactIcons">
       <a href="https://www.linkedin.com/in/solene-delumeau" target="_blank" rel="noreferrer">  <FontAwesomeIcon icon={faLinkedin} /></a>
       <a href="https://www.github.com/solenedel" target="_blank" rel="noreferrer">  <FontAwesomeIcon icon={faGithub} /></a> 

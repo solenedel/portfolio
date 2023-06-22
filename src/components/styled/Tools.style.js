@@ -65,21 +65,22 @@ const StyledTools = styled(Tools)`
   }
   
   h2 {
+    font-size: 40px;
     margin: 50px 0 30px 0;
-    font-size: 35px;
-    font-family: 'Share Tech Mono', monospace;
+    letter-spacing:3px;
     font-weight: 700;
     color: white;
   }
 
   h4 {
-    font-size: 26px;
-    font-weight: 200;
+    font-size: 30px;
+    font-weight: 400;
     color: #ffbf80;
     margin-bottom: 0;
 
     &.software {
       margin-top: 50px;
+      
     }
   }
 
@@ -87,7 +88,7 @@ const StyledTools = styled(Tools)`
     font-size: 25px;
     color: #ffbf80;
     margin-bottom: 60px;
- 
+    font-family: 'PT Mono', sans-serif;
     line-height: 3rem;
   }
 

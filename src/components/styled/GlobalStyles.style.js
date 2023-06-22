@@ -12,7 +12,7 @@ export const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Mononoki', sans-serif;
+  font-family: 'Grenze Gotisch Variable', sans-serif;
     /* max-width: 100%; */
     overflow-x: hidden;
   }
@@ -33,7 +33,7 @@ background-size: cover;
   }
 
   p {
-   font-family: 'Mononoki', sans-serif;
+     font-family: 'Mononoki', sans-serif;
   }
 
   .App {

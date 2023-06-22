@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Projects from "../Projects";
+import '@fontsource/jacques-francois-shadow';
 
 const StyledProjects = styled(Projects)`
   display: flex;
@@ -35,8 +36,8 @@ const StyledProjects = styled(Projects)`
   
   h2 {
     margin: 50px 0 30px 0;
-    font-size: 35px;
-    font-family: 'Share Tech Mono', monospace;
+    font-size: 40px;
+   letter-spacing: 3px;
     font-weight: 700;
     color: white;
   }

@@ -1,8 +1,6 @@
 import styled from 'styled-components'
 import Header from '../Header'
-import '@fontsource-variable/tourney';
-import '@fontsource/limelight';
-import '@fontsource/jacques-francois-shadow';
+import '@fontsource/pt-mono';
 
 
 const StyledHeader = styled(Header)`
@@ -40,9 +38,9 @@ const StyledHeader = styled(Header)`
   p {
     color: white;
     opacity: 0.9;
-    font-size: 27px;
-    font-weight: 100;
-   
+    font-size: 20px;
+    font-family: 'PT Mono', sans-serif;
+
   }
 
   div.title {
@@ -78,13 +76,15 @@ font-family: 'Grenze Gotisch Variable', sans-serif;
   h2 {
     position: center;
     text-align: center;
-  font-family: 'Grenze Gotisch Variable', sans-serif;
+  font-family: 'PT Mono', sans-serif;
     color: white;
-    font-size: 40px;
+    font-size: 50px;
+    font-weight: 400;
   }
 
   h3 {
     font-size: 30px;
+    letter-spacing: 5px;
     font-weight: 200;
    color: #ffbf80;
    margin-bottom:80px;
@@ -213,10 +213,11 @@ img.firstName {
       line-height: 50px;
       width: 70vw;
       padding-left: 40px;
+      letter-spacing: 5px;
     }
 
     p {
-      font-size: 20px;
+      font-size: 12px;
    
     }
 
