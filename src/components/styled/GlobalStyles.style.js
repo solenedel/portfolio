@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-import bgStars from "../../images/new_hero.png";
+import bgStars from "../../images/hero-4.png";
 import '@fontsource-variable/grenze-gotisch';
 import '@fontsource/pt-mono';
 
@@ -16,6 +16,7 @@ export const GlobalStyles = createGlobalStyle`
 
     body {
     background-image: url(${bgStars});
+    background: rbga(0,0,0,0.7);
     background-attachment: fixed;
     background-size: cover;
     padding: 40px 50px 40px 50px;
@@ -31,12 +32,13 @@ export const GlobalStyles = createGlobalStyle`
   p, a, li {
      font-family: 'PT Mono', sans-serif;
       color: #ff9999;
-      margin-bottom: 8px;
+    
   }
 
   .aboutText {
     font-size: 22px;
-    padding: 0 60px 0  60px;
+    width: 2/3;
+    padding-right: 40px;
   }
 
   .tagline {
@@ -45,14 +47,19 @@ export const GlobalStyles = createGlobalStyle`
 
   img.photo {
     border-radius: 500px;
-    width: 300px;
+    width: 250px;
     filter: grayscale(50%);
+  }
+
+  div.frame {
+    min-width: 250px;
   }
 
   .subheading {
     font-size: 50px;
     letter-spacing: 3px;
      opacity:90%;
+     font-weight: 300;
   }
 
   .about-flex {
@@ -65,6 +72,30 @@ export const GlobalStyles = createGlobalStyle`
     font-size: 25px;
   }
 
+  .projects {
+    border-style: solid;
+    border-width: 2px;
+    width: fit-content;
+    padding: 14px;
+    border-radius: 10px;
+    border-color: #ff9999;
+    
+    
+    :hover {
+      transform: translateY(4px);
+      cursor: pointer;
+    }
+
+    a {
+      font-size: 24px;
+      text-decoration: none;
+    }
+  }
+
+  .projects-container {
+    padding: 10px 0 10px 0;
+  }
+
   a {
     color: #ff9999;
   }
@@ -72,6 +103,12 @@ export const GlobalStyles = createGlobalStyle`
   h1 {
     font-size: 80px;
     letter-spacing: 2px;
+  }
+
+  li {
+      margin-bottom: 14px;
+      line-height:28px;
+      color: #ffb3b3;
   }
 
   .App {
