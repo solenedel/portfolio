@@ -20,11 +20,7 @@ const Tools = ({className}) => {
         <p> GitHub ✦ VScode ✦ Squarespace ✦ Figma ✦ Aseprite </p>
           
         </div>
-      {/* <p>Feel free to reach out for freelancing and contracting opportunities!</p> */}
       
-      
-     
-       
       </div>
    );
 }

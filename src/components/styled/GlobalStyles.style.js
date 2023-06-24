@@ -92,8 +92,38 @@ export const GlobalStyles = createGlobalStyle`
     }
   }
 
+  .contact-section {
+    display: flex;
+    justify-items: start;
+    align-items: baseline;
+    margin-top: 60px;
+
+
+    .contactIcons {
+        margin-left: 40px;
+        font-size: 40px;
+      a {
+        text-decoration: none;
+      }
+    
+    }
+  }
+
   .projects-container {
     padding: 10px 0 10px 0;
+  }
+
+  .tools-section {
+    margin-top: 60px;
+
+  h4 {
+      font-size: 24px;
+      font-family: 'PT Mono', sans-serif;
+      font-weight: 400;
+    }
+    p {
+      font-size: 20px;
+    }
   }
 
   a {
