@@ -12,7 +12,7 @@ const Header = () => {
 
         <p className="tagline"> software developer </p>
 
-        <div className="skills">
+        <div className="about-me">
           <h2 className="subheading">About me</h2>
           <div className="about-flex">
             <ul className="aboutText">

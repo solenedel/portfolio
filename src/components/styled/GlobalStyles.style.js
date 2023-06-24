@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-import bgStars from "../../images/hero-4.png";
+import bgStars from "../../images/hero-6.png";
 import '@fontsource-variable/grenze-gotisch';
 import '@fontsource/pt-mono';
 
@@ -11,7 +11,8 @@ export const GlobalStyles = createGlobalStyle`
     padding: 0;
     font-family: 'Grenze Gotisch Variable', sans-serif;
     overflow-x: hidden;
-    color:  #d9ebfb;
+    /* color:  #56D3B3; */
+    /* color: #45C0A0; */
   }
 
     body {
@@ -19,19 +20,26 @@ export const GlobalStyles = createGlobalStyle`
     background: rbga(0,0,0,0.7);
     background-attachment: fixed;
     background-size: cover;
-    padding: 40px 50px 40px 50px;
+    color: #45C0A0; 
+   
     }
 
 
  h1, h2, h3, h4, h5 {
    font-family: 'Grenze Gotisch Variable', sans-serif;
     margin: 25px 0 25px 0;
+     /* padding: 40px 50px 40px 50px; */
    
+  }
+
+  h1 {
+    padding-left: 50px;
   }
 
   p, a, li {
      font-family: 'PT Mono', sans-serif;
-      color: #ff9999;
+      color: #E8AEFF;
+   
     
   }
 
@@ -43,12 +51,13 @@ export const GlobalStyles = createGlobalStyle`
 
   .tagline {
     margin-bottom:100px;
+     padding-left: 50px;
   }
 
   img.photo {
     border-radius: 500px;
-    width: 250px;
-    filter: grayscale(50%);
+    width: 220px;
+    filter: grayscale(100%);
   }
 
   div.frame {
@@ -67,8 +76,14 @@ export const GlobalStyles = createGlobalStyle`
     justify-items: between;
   }
 
+  .about-me {
+background: rgba(0,0,0, 0.7);
+
+    padding: 20px 50px 20px 50px;
+  }
+
   p.tagline {
-    color: #ff9999;
+    color: #E8AEFF;
     font-size: 25px;
   }
 
@@ -78,7 +93,7 @@ export const GlobalStyles = createGlobalStyle`
     width: fit-content;
     padding: 14px;
     border-radius: 10px;
-    border-color: #ff9999;
+    border-color: #E8AEFF;
     
     
     :hover {
@@ -97,24 +112,51 @@ export const GlobalStyles = createGlobalStyle`
     justify-items: start;
     align-items: baseline;
     margin-top: 60px;
+    padding-left: 50px;
+    
+    h2 {
+      color: black;
+    }
+   
 
 
     .contactIcons {
         margin-left: 40px;
         font-size: 40px;
+
+        img {
+          margin-left: 22px;
+        }
+         
       a {
         text-decoration: none;
+
+     
+        
+
+        .contactIcon {
+          color: black;
+
+             :hover {
+          color: #45C0A0;
+        }
+        }
       }
     
     }
   }
 
   .projects-container {
-    padding: 10px 0 10px 0;
+    padding: 10px 0px 10px 50px;
+
   }
 
   .tools-section {
     margin-top: 60px;
+    margin-bottom: 20px;
+    background: rgba(0,0,0,0.7);
+    padding-left: 50px;
+    padding-bottom: 40px;
 
   h4 {
       font-size: 24px;
@@ -127,7 +169,7 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   a {
-    color: #ff9999;
+    color: #E8AEFF;
   }
 
   h1 {
@@ -138,7 +180,7 @@ export const GlobalStyles = createGlobalStyle`
   li {
       margin-bottom: 14px;
       line-height:28px;
-      color: #ffb3b3;
+      color: #E8AEFF;
   }
 
   .App {
