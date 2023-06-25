@@ -47,7 +47,7 @@ export const GlobalStyles = createGlobalStyle`
   .aboutText {
     font-size: 22px;
     width: 2/3;
-    padding-right: 40px;
+    padding-left: 40px;
   }
 
   .tagline {
@@ -247,6 +247,12 @@ export const GlobalStyles = createGlobalStyle`
         text-align: center;
       }
       
+      /* .aboutText {
+    padding-left: 0px;
+    margin-left: 0;
+    width: 100%;
+    background: white;
+  } */
 
       .about-flex {
         flex-direction: column;
@@ -255,8 +261,10 @@ export const GlobalStyles = createGlobalStyle`
 
       li {
         margin-bottom: 32px;
-        width: 100%;
-         padding-left: 50px;
+        width: 90%;
+         /* padding-left: 50px; */
+         /* padding-left: 10px;
+         padding-right: 10px; */
       }
 
       .frame {
