@@ -1,6 +1,5 @@
 import React from 'react';
 import dp from '../../images/me.png';
-import 'tailwindcss/tailwind.css';
 
 const Header = () => {
   return (
