@@ -15,10 +15,12 @@ const Header = () => {
         <div className="about-me">
           <h2 className="subheading">about me</h2>
           <div className="about-flex">
+            <div className="frame">
+              <img className="photo" src={dp} alt="me" />
+            </div>
             <ul className="aboutText">
               <li>
-                ➤ 1+ year of startup experience, mainly in front-end
-                development.
+                ➤ 1+ year of startup experience, mainly front-end development.
               </li>
               <li>
                 ➤ I've lived in France, Japan, China, Singapore and Canada.
@@ -35,13 +37,10 @@ const Header = () => {
                 .
               </li>
               <li>
-                ➤ I'm open to freelancing opportunities, so feel free to reach
-                out by email or on LinkedIn.
+                ➤ I'm open to freelancing, so feel free to reach out by email or
+                on LinkedIn.
               </li>
             </ul>
-            <div className="frame">
-              <img className="photo" src={dp} alt="me" />
-            </div>
           </div>
         </div>
       </span>

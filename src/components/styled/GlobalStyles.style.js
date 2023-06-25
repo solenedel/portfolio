@@ -79,8 +79,7 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   .about-me {
-background: rgba(0,0,0, 0.7);
-
+    background: rgba(0,0,0, 0.7);
     padding: 20px 50px 20px 50px;
   }
 
@@ -202,6 +201,35 @@ background: rgba(0,0,0, 0.7);
       margin-top: 14px;
       line-height: 30px;
       width: 70%;
+    }
+
+    .about-me {
+      padding: 0;
+      padding-bottom: 32px;
+     
+      .subheading {
+
+        text-align: center;
+      }
+      
+
+      .about-flex {
+        flex-direction: column;
+        width: 100%;
+      }
+
+      li {
+        margin-bottom: 32px;
+        width: 100%;
+         padding-left: 50px;
+      }
+
+      .frame {
+        margin-bottom: 30px;
+        
+        text-align: center;
+    
+      }
     }
   }
 
