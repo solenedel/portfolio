@@ -187,7 +187,7 @@ export const GlobalStyles = createGlobalStyle`
     flex-direction: column;
   }
 
-  @media screen and (width < 640px) {
+  @media screen and (width < 700px) {
 
     h1 {
       font-size: 60px;
