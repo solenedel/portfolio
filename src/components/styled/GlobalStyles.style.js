@@ -133,9 +133,6 @@ export const GlobalStyles = createGlobalStyle`
       a {
         text-decoration: none;
 
-     
-        
-
         .contactIcon {
           color: black;
 
@@ -203,12 +200,50 @@ export const GlobalStyles = createGlobalStyle`
       width: 70%;
     }
 
+    .projects {
+      width: 80%;
+    }
+
+    .tools-section {
+      padding: 0;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-bottom: 40px;
+
+      p {
+        line-height: 2;
+      }
+
+      h4.software {
+        margin-top: 40px;
+      }
+    }
+
+    .contact-section {
+      padding: 0;
+      padding-left:18px;
+      padding-right: 18px;
+      margin-top: 10px;
+
+      .subheading {
+        width: 50%;
+        margin-bottom: 15px;
+        margin-top: 0px;
+      }
+
+
+    .contactIcons {
+        margin-left: 0;
+        font-size: 40px;
+
+    }
+  }
+
     .about-me {
       padding: 0;
       padding-bottom: 32px;
      
       .subheading {
-
         text-align: center;
       }
       

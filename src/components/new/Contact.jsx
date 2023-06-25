@@ -8,7 +8,7 @@ import fivver from '../../images/fivver.png';
 function Contact() {
   return (
     <footer className="contact-section">
-      <h2 className="subheading">contact me</h2>
+      <h2 className="subheading">contact</h2>
       <div className="contactIcons">
         <a
           href="https://www.linkedin.com/in/solene-delumeau"

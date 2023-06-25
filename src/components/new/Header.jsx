@@ -19,26 +19,24 @@ const Header = () => {
               <img className="photo" src={dp} alt="me" />
             </div>
             <ul className="aboutText">
-              <li>
-                ➤ 1+ year of startup experience, mainly front-end development.
-              </li>
+              <li>➤ 1+ year of startup experience, mainly front-end.</li>
               <li>
                 ➤ I've lived in France, Japan, China, Singapore and Canada.
               </li>
               <li>
-                ➤ Lately, I'm trying pixel art. Check out my stuff{' '}
+                ➤ Lately, I'm trying{' '}
                 <a
                   className="igLink"
                   target="_blank"
                   href="https://www.artstation.com/mezanote"
                   rel="noreferrer">
-                  here
+                  pixel art
                 </a>
                 .
               </li>
               <li>
-                ➤ I'm open to freelancing, so feel free to reach out by email or
-                on LinkedIn.
+                ➤ I'm open to freelancing. Feel free to reach out by email or on
+                LinkedIn.
               </li>
             </ul>
           </div>
