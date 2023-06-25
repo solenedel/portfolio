@@ -2,7 +2,7 @@ import uncrypt from '../../images/uncrypt.png';
 function Projects() {
   return (
     <div className="projects-container">
-      <h2 className="subheading">Projects</h2>
+      <h2 className="subheading">projects</h2>
       <div className="projects">
         <a
           href="http://uncrypt.app"

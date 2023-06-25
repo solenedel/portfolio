@@ -10,21 +10,21 @@ const Header = () => {
           <h1>Solène Delumeau</h1>
         </div>
 
-        <p className="tagline"> software developer </p>
+        <p className="tagline">software developer </p>
 
         <div className="about-me">
-          <h2 className="subheading">About me</h2>
+          <h2 className="subheading">about me</h2>
           <div className="about-flex">
             <ul className="aboutText">
               <li>
-                ⭐ 1+ year of startup experience, mainly in front-end
+                ➤ 1+ year of startup experience, mainly in front-end
                 development.
               </li>
               <li>
-                ⭐ I've lived in France, Japan, China, Singapore and Canada.
+                ➤ I've lived in France, Japan, China, Singapore and Canada.
               </li>
               <li>
-                ⭐ Lately, I'm trying pixel art. Check out my stuff{' '}
+                ➤ Lately, I'm trying pixel art. Check out my stuff{' '}
                 <a
                   className="igLink"
                   target="_blank"
@@ -35,7 +35,7 @@ const Header = () => {
                 .
               </li>
               <li>
-                ⭐ I'm open to freelancing opportunities, so feel free to reach
+                ➤ I'm open to freelancing opportunities, so feel free to reach
                 out by email or on LinkedIn.
               </li>
             </ul>

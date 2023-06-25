@@ -34,6 +34,7 @@ export const GlobalStyles = createGlobalStyle`
 
   h1 {
     padding-left: 50px;
+    padding-top: 40px;
   }
 
   p, a, li {
@@ -52,6 +53,7 @@ export const GlobalStyles = createGlobalStyle`
   .tagline {
     margin-bottom:100px;
      padding-left: 50px;
+     letter-spacing: 3px;
   }
 
   img.photo {
@@ -94,6 +96,7 @@ background: rgba(0,0,0, 0.7);
     padding: 14px;
     border-radius: 10px;
     border-color: #E8AEFF;
+    background: rgba(232,174, 255, 0.1); 
     
     
     :hover {
@@ -186,6 +189,20 @@ background: rgba(0,0,0, 0.7);
   .App {
     display: flex;
     flex-direction: column;
+  }
+
+  @media screen and (width < 640px) {
+
+    h1 {
+      font-size: 60px;
+      line-height: 60px;
+    }
+
+    .tagline {
+      margin-top: 14px;
+      line-height: 30px;
+      width: 70%;
+    }
   }
 
  
