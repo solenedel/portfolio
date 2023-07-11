@@ -3,15 +3,15 @@ function Tools() {
     <div className="tools-section">
       <h2 className="subheading">tools & skills</h2>
       <div className="myTools">
-        <h4>languages & frameworks</h4>
+        <h4>Languages & frameworks</h4>
         <p>
           {' '}
-          React JS / Next.js / Tailwind CSS / Postgres / SQL / HTML / CSS /
-          JavaScript (ES6) / Git{' '}
+          React JS – Next.js – HTML – CSS – Tailwind CSS – JavaScript –
+          TypeScript – SQL – Git{' '}
         </p>
 
-        <h4 className="software">software</h4>
-        <p> GitHub / VScode / Squarespace / Figma / Aseprite </p>
+        <h4 className="software">Software & design</h4>
+        <p> Figma – GitHub – VScode – Squarespace – Aseprite – Canva </p>
       </div>
     </div>
   );

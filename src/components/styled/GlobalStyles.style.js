@@ -2,6 +2,9 @@ import { createGlobalStyle } from 'styled-components';
 import bgStars from "../../images/hero-6.png";
 import '@fontsource-variable/grenze-gotisch';
 import '@fontsource/pt-mono';
+// Supports weights 200-900
+import '@fontsource-variable/mulish';
+
 
 
 export const GlobalStyles = createGlobalStyle`
@@ -38,7 +41,7 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   p, a, li {
-     font-family: 'PT Mono', sans-serif;
+      font-family: 'Mulish Variable', sans-serif;
       color: #E8AEFF;
    
     
@@ -53,7 +56,7 @@ export const GlobalStyles = createGlobalStyle`
   .tagline {
     margin-bottom:100px;
      padding-left: 50px;
-     letter-spacing: 3px;
+     letter-spacing: 2px;
   }
 
   img.photo {
@@ -94,6 +97,7 @@ export const GlobalStyles = createGlobalStyle`
     width: fit-content;
     padding: 14px;
     border-radius: 10px;
+    font-weight: 600;
     border-color: #E8AEFF;
     background: rgba(232,174, 255, 0.1); 
     
@@ -159,8 +163,8 @@ export const GlobalStyles = createGlobalStyle`
 
   h4 {
       font-size: 24px;
-      font-family: 'PT Mono', sans-serif;
-      font-weight: 400;
+       font-family: 'Mulish Variable', sans-serif;
+      font-weight: 700;
     }
     p {
       font-size: 20px;
@@ -229,6 +233,7 @@ export const GlobalStyles = createGlobalStyle`
         width: 50%;
         margin-bottom: 15px;
         margin-top: 0px;
+        letter-spacing: 3px;
       }
 
 

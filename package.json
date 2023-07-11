@@ -5,6 +5,7 @@
   "private": true,
   "dependencies": {
     "@fontsource-variable/grenze-gotisch": "^5.0.3",
+    "@fontsource-variable/mulish": "^5.0.6",
     "@fontsource-variable/tourney": "^5.0.4",
     "@fontsource/jacques-francois-shadow": "^5.0.3",
     "@fontsource/limelight": "^5.0.3",
