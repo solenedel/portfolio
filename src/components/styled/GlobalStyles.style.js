@@ -38,6 +38,7 @@ export const GlobalStyles = createGlobalStyle`
   h1 {
     padding-left: 50px;
     padding-top: 40px;
+    overflow: hidden;
   }
 
   p, a, li {
@@ -122,6 +123,7 @@ export const GlobalStyles = createGlobalStyle`
     
     h2 {
       color: black;
+    letter-spacing: 20px;
     }
    
 
@@ -201,7 +203,8 @@ export const GlobalStyles = createGlobalStyle`
     .tagline {
       margin-top: 14px;
       line-height: 30px;
-      width: 70%;
+      width: 90%;
+      overflow: hidden;
     }
 
     .projects {
